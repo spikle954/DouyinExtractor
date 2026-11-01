@@ -1,0 +1,70 @@
+{
+  "version": "0.8.0",
+  "samples": [
+    {
+      "success": true,
+      "id": "3xgp7zntw6w2zqq",
+      "platform": "Kuaishou",
+      "title": "打了个出租车",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 5433,
+      "bytes": 1197962,
+      "sha256": "d8c3b707fd9b46af6a7c1563ac81a6371b8a3bf83a2f7d55b23c924109ca657f",
+      "host": "v23-3.kwaicdn.com",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手公开作品页面：HTTP 302；媒体地址和访问参数不写入诊断。\n快手公开作品页面：HTTP 200；媒体地址和访问参数不写入诊断。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-12T05:43:49.253Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 5433,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 5572,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "id": "6abcd793000000001802cf95",
+      "platform": "Xiaohongshu",
+      "title": "在网上买了一个耿鬼开关 #耿鬼[话题]# #宝可梦[话题]# #开关[话题]# #3d打印[话题]#",
+      "formats": 6,
+      "width": 720,
+      "height": 960,
+      "durationMs": 12584,
+      "bytes": 2799265,
+      "sha256": "9eef9c335b819cadb8aeec31440b1f8324307bf3ec65f783ea7d2aba73f87002",
+      "host": "sns-video-v3.xhscdn.com",
+      "trace": "已识别小红书作品编号，将读取当前公开作品页面；未使用登录信息。\n小红书公开作品页面：HTTP 200；媒体地址和访问参数不写入诊断。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-12T05:43:52.150Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 960,
+          "durationMs": 12567,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12584,
+          "codec": "mp4a"
+        }
+      ]
+    }
+  ],
+  "androidDeviceTest": "Not run; native system saving, notifications, share intents and playback require handset verification."
+}

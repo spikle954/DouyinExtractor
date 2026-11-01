@@ -1,0 +1,440 @@
+{
+  "version": "0.8.5",
+  "versionCode": 20,
+  "recordedAt": "2026-10-13T15:32:50.1239560+08:00",
+  "build": "SUCCESS",
+  "command": "assembleDebug assembleRelease test lintDebug",
+  "uniqueTests": 402.0,
+  "executions": 484.0,
+  "testResults": [
+    {
+      "target": "core/build/test-results/test",
+      "tests": 320.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "skipped": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserLocalBlockTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserRequestTraceTest",
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserSnapshotParserTest",
+          "tests": 39,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserUrlPolicyTest",
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.KuaishouBrowserTest",
+          "tests": 13,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.diagnostics.BrowserPageTraceTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.diagnostics.DiagnosticReportTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.download.VideoDownloaderTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.download.VideoFilePublisherTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.bilibili.BilibiliHttpClientTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.bilibili.BilibiliTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.DouyinExtractorTest",
+          "tests": 14,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.DouyinJsonMapperTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.DouyinPlaybackSourceTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.MediaUrlPolicyTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.parser.DouyinPageParserTest",
+          "tests": 29,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.KuaishouLiteTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.KuaishouShareRouteTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.SocialHttpClientTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.SocialRecoveryTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.SocialTest",
+          "tests": 21,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.social.SocialTransportFailureTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.DouyinUrlsTest",
+          "tests": 12,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.ShareTextParserTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.UserShareRegressionTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.model.MediaFormatSelectorTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinCoverClientTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinHttpClientTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinPageClientTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinUrlResolverTest",
+          "tests": 20,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testDebugUnitTest",
+      "tests": 82.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "skipped": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueTest",
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueWorkerTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadRecordTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadSearchTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadsTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDuplicateFinderTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedFeedbackTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SocialDownloadTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.AutomaticBrowserTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.KuaishouBrowserFlowTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 28,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.SocialViewModelTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testReleaseUnitTest",
+      "tests": 82.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "skipped": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueTest",
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueWorkerTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadRecordTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadSearchTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadsTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDuplicateFinderTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedFeedbackTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SocialDownloadTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.AutomaticBrowserTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.KuaishouBrowserFlowTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 28,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.SocialViewModelTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    }
+  ],
+  "scriptChecks": 55,
+  "scriptChecksScope": "37 existing Douyin checks retained with unchanged script; 18 synthetic Node Kuaishou checks run against final script, including dynamic player props and CAPTCHA frame classification; not Android.",
+  "kuaishouScriptSha256": "8a30af2b662a3ce8fc1e2b119c3d9cd9afb97a31782fd5032714c2cba4d27427",
+  "lintErrors": 0,
+  "lintWarnings": 32,
+  "originalSourceFilesChecked": 133,
+  "unchangedOriginalSourceFiles": 124,
+  "oldPlatformParserFiles": 21,
+  "allOldParserFilesUnchanged": true,
+  "existingDouyinBrowserAndSessionUnchanged": true,
+  "downloadStorageUnchanged": true,
+  "runtimeArtifacts": 69,
+  "dependencyLicenseEntries": 69,
+  "newDependencies": 0,
+  "newPermissions": 0,
+  "liveSamples": "Isolated 412 px desktop Chrome with equivalent policy and actual production capture supplied target props. Production KuaishouBrowserParser isolated dynamic videoInfo path provided 6 resources; selected first provided MP4 completed native download with AVC/AAC tracks. One recommended CDN alternative redirected to an unreviewed host and was correctly rejected; limits unchanged. Prior native regression downloads retained in v084 report. See v085-live-browser.json.",
+  "liveCompleteDownloadCount": 1,
+  "browserTargetMatched": true,
+  "browserFormats": 6,
+  "browserDownloadedBytes": 4687505,
+  "selectedResourceIndex": 0,
+  "unreviewedRedirectRejected": true,
+  "androidRuntime": "Not run: no attached Android target or emulator. Desktop Chrome evidence is not Android WebView validation. Handset verification of browser fallback, normal CAPTCHA interaction, cleanup, share intents, saving and UI is pending.",
+  "visualQA": "No new screenshots; original A direction QA remains pending. Core and desktop browser download evidence is not Android visual evidence."
+}

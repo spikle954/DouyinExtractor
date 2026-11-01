@@ -1,0 +1,484 @@
+{
+  "version": "0.7.1",
+  "versionCode": 14,
+  "phase": "A direction fixes from 0.7.0 Android screenshots",
+  "recordedAt": "2026-10-09T19:28:23.1117489+08:00",
+  "command": "assembleDebug assembleRelease test lintDebug",
+  "build": "SUCCESS",
+  "uniqueTests": 320.0,
+  "executions": 390.0,
+  "testResults": [
+    {
+      "target": "core/build/test-results/test",
+      "tests": 250.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserLocalBlockTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserRequestTraceTest",
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserSnapshotParserTest",
+          "tests": 39,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.browser.BrowserUrlPolicyTest",
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.diagnostics.BrowserPageTraceTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.diagnostics.DiagnosticReportTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.download.VideoDownloaderTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.download.VideoFilePublisherTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.bilibili.BilibiliHttpClientTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.bilibili.BilibiliTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.DouyinExtractorTest",
+          "tests": 14,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.DouyinJsonMapperTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.DouyinPlaybackSourceTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.MediaUrlPolicyTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.parser.DouyinPageParserTest",
+          "tests": 29,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.DouyinUrlsTest",
+          "tests": 12,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.ShareTextParserTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.UserShareRegressionTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.model.MediaFormatSelectorTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinCoverClientTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinHttpClientTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinPageClientTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinUrlResolverTest",
+          "tests": 20,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testDebugUnitTest",
+      "tests": 70.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueTest",
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueWorkerTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadRecordTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadSearchTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadsTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDuplicateFinderTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedFeedbackTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.AutomaticBrowserTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 28,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testReleaseUnitTest",
+      "tests": 70.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueTest",
+          "tests": 8,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadQueueWorkerTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.DownloadRecordTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadSearchTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDownloadsTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedDuplicateFinderTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.download.SavedFeedbackTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.AutomaticBrowserTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 28,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    }
+  ],
+  "scriptChecks": 37,
+  "lintErrors": 0,
+  "lintWarnings": 32,
+  "lint": [
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "ApplySharedPref",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "ModifierParameter",
+      "severity": "Warning"
+    },
+    {
+      "id": "StaticFieldLeak",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    },
+    {
+      "id": "UseKtx",
+      "severity": "Warning"
+    }
+  ],
+  "protectedBusinessFiles": 86,
+  "allProtectedBusinessFilesUnchanged": true,
+  "uiCallbackChecks": [
+    {
+      "name": "DownloadPanel state, submit, permissions, directory result",
+      "unchanged": true
+    },
+    {
+      "name": "Download button duplicate check and selection",
+      "unchanged": true
+    },
+    {
+      "name": "Storage and duplicate dialogs",
+      "unchanged": true
+    },
+    {
+      "name": "Home lifecycle, navigation and completion feedback",
+      "unchanged": true
+    }
+  ],
+  "runtimeArtifacts": 69,
+  "dependencyLicenseEntries": 69,
+  "newDependencies": 0,
+  "newPermissions": 0,
+  "visualQA": "blocked: old Android screenshots compared; revised 0.7.1 runtime screenshots still unavailable. See design-qa.md.",
+  "deviceTest": "0.7.0 four actual user screenshots and user confirmation that saved files play; no connected adb target; revised thumbnail decoder, pinned download button, large fonts, orientation, queue and success sheet need phone checks.",
+  "thumbnailCheck": "Provider fallback to scaled MediaMetadataRetriever on API 27+, content URI only, two IO decoder slots, 4 MB in-memory cache; actual decoder not executable in JVM tests.",
+  "liveMedia": "No extraction, transfer or saving changes; no new live downloads in this UI repair."
+}

@@ -1,0 +1,163 @@
+{
+  "version": "0.8.2",
+  "firstAttempt": [
+    {
+      "label": "kuaishou-lite-user",
+      "success": false,
+      "error": "UnsupportedPage",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。",
+      "observedAt": "2026-10-12T15:32:40.417Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime"
+    },
+    {
+      "label": "kuaishou-canonical-user",
+      "success": false,
+      "error": "UnsupportedPage",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74834 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。",
+      "observedAt": "2026-10-12T15:32:41.808Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime"
+    },
+    {
+      "label": "kuaishou-normal-regression",
+      "success": false,
+      "error": "UnsupportedPage",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74834 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。",
+      "observedAt": "2026-10-12T15:32:43.528Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime"
+    },
+    {
+      "label": "xhs-regression",
+      "success": true,
+      "id": "6abcd793000000001802cf95",
+      "platform": "Xiaohongshu",
+      "title": "在网上买了一个耿鬼开关 #耿鬼[话题]# #宝可梦[话题]# #开关[话题]# #3d打印[话题]#",
+      "formats": 6,
+      "width": 720,
+      "height": 960,
+      "durationMs": 12584,
+      "bytes": 2799265,
+      "sha256": "9eef9c335b819cadb8aeec31440b1f8324307bf3ec65f783ea7d2aba73f87002",
+      "host": "sns-video-v2.xhscdn.com",
+      "trace": "小红书短链定位：主机 xhslink.cn；HTTP 302；类型 HTML；已读取 0 字符。\n已识别小红书作品编号，将读取当前公开作品页面；未使用登录信息。\n小红书页面提取：主机 www.xiaohongshu.com；HTTP 200；类型 HTML；已读取 65402 字符。\nParser SocialState：脚本 15；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-12T15:32:45.813Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 960,
+          "durationMs": 12567,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12584,
+          "codec": "mp4a"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "label": "kuaishou-lite-user",
+      "success": true,
+      "id": "3xucdsfddb9cz4m",
+      "platform": "Kuaishou",
+      "title": "“桃子”邪修怎么记？ #邪修英语 #开学季 #未来预备班 #开学有招",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 12166,
+      "bytes": 3780364,
+      "sha256": "9b42e2381d73132cb703d4198affa48314e2aeed1c83dd97a206a6a58fc07b90",
+      "host": "v23-3.kwaicdn.com",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 92386 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T04:15:04.613Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 12167,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12282,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "label": "kuaishou-canonical-user",
+      "success": false,
+      "error": "UnsupportedPage",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。",
+      "observedAt": "2026-10-13T04:15:06.038Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime"
+    },
+    {
+      "label": "kuaishou-normal-regression",
+      "success": false,
+      "error": "UnsupportedPage",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74835 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。",
+      "observedAt": "2026-10-13T04:15:07.764Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime"
+    },
+    {
+      "label": "xhs-regression",
+      "success": true,
+      "id": "6abcd793000000001802cf95",
+      "platform": "Xiaohongshu",
+      "title": "在网上买了一个耿鬼开关 #耿鬼[话题]# #宝可梦[话题]# #开关[话题]# #3d打印[话题]#",
+      "formats": 4,
+      "width": 720,
+      "height": 960,
+      "durationMs": 12584,
+      "bytes": 2799265,
+      "sha256": "9eef9c335b819cadb8aeec31440b1f8324307bf3ec65f783ea7d2aba73f87002",
+      "host": "sns-video-qc.xhscdn.com",
+      "trace": "小红书短链定位：主机 xhslink.cn；HTTP 302；类型 HTML；已读取 0 字符。\n已识别小红书作品编号，将读取当前公开作品页面；未使用登录信息。\n小红书页面提取：主机 www.xiaohongshu.com；HTTP 200；类型 HTML；已读取 64388 字符。\nParser SocialState：脚本 15；状态块 1；可解析状态 1；目标作品状态 1；地址候选 4；受支持 MP4 4；被筛除地址 0。不记录页面内容或资源地址。\n找到 4 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T04:15:09.664Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 960,
+          "durationMs": 12567,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12584,
+          "codec": "mp4a"
+        }
+      ]
+    }
+  ],
+  "scope": "Real production core extraction and full MP4 downloads when available; failed public requests retained. No Android runtime or phone fix claim.",
+  "transportComparison": [
+    {
+      "configuredProtocols": "h2, http/1.1",
+      "success": true,
+      "error": null,
+      "formats": 6,
+      "trace": "快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 92506 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。"
+    },
+    {
+      "configuredProtocols": "http/1.1",
+      "success": true,
+      "error": null,
+      "formats": 6,
+      "trace": "快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 92383 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。"
+    }
+  ]
+}

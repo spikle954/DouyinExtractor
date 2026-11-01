@@ -1,0 +1,113 @@
+{
+  "version": "0.4.1",
+  "targetId": "7690145822168750565",
+  "observedAt": "2026-10-05T04:32:17.865Z",
+  "method": "Isolated desktop Chrome public page -> target JSON via UTF-8 stdin -> production DouyinJsonMapper -> production MediaFormatSelector -> production VideoDownloader. No imported cookies or signed API generation.",
+  "publicPage": {
+    "host": "m.douyin.com",
+    "path": "/share/video/7690145822168750565"
+  },
+  "targetMatched": true,
+  "declaredRoute": {
+    "host": "aweme.snssdk.com",
+    "path": "/aweme/v1/playwm/"
+  },
+  "initialOriginalDownload": {
+    "name": "declared",
+    "success": false,
+    "problem": "NETWORK",
+    "routes": [
+      {
+        "host": "aweme.snssdk.com",
+        "scheme": "https",
+        "accepted": true
+      },
+      {
+        "host": "v5-hl-mly-ov.zjcdn.com",
+        "scheme": "https",
+        "accepted": true
+      }
+    ],
+    "http": null,
+    "processExit": 0
+  },
+  "initialPublicPlaybackDownload": {
+    "name": "public-play",
+    "success": true,
+    "bytes": 1194207,
+    "routes": [
+      {
+        "host": "aweme.snssdk.com",
+        "scheme": "https",
+        "accepted": true
+      },
+      {
+        "host": "v5-hl-mly-ov.zjcdn.com",
+        "scheme": "https",
+        "accepted": true
+      }
+    ],
+    "container": "MP4",
+    "sha256": "8f2844ca4947883569d7fedbc6b18c98c4abf34a67148d2d1b1c715b95074ccd",
+    "processExit": 0
+  },
+  "productionMappingAndDownload": {
+    "success": true,
+    "formatCount": 2,
+    "publicCandidate": true,
+    "bytes": 1194207,
+    "routes": [
+      {
+        "host": "aweme.snssdk.com",
+        "scheme": "https",
+        "accepted": true
+      },
+      {
+        "host": "v5-hl-mly-ov.zjcdn.com",
+        "scheme": "https",
+        "accepted": true
+      }
+    ],
+    "container": "MP4",
+    "sha256": "8f2844ca4947883569d7fedbc6b18c98c4abf34a67148d2d1b1c715b95074ccd",
+    "processExit": 0
+  },
+  "localPlayback": {
+    "method": "Isolated Chrome local file playback, no network media, browser sandbox enabled",
+    "observedAt": "2026-10-05T04:23:58.721Z",
+    "start": {
+      "found": true,
+      "playing": true
+    },
+    "result": {
+      "width": 1280,
+      "height": 720,
+      "duration": 11.238005,
+      "currentTime": 11.238005,
+      "ended": true,
+      "readyState": 4,
+      "error": null,
+      "totalFrames": 337,
+      "droppedFrames": 150,
+      "audioBytes": 180559,
+      "videoBytes": 999849
+    },
+    "passed": true
+  },
+  "visualCheck": {
+    "sampleSeconds": [
+      1,
+      4,
+      8
+    ],
+    "platformOverlaySeen": false,
+    "scope": "Manual inspection of sampled frames only; not an automated all-frame watermark guarantee."
+  },
+  "notes": [
+    "Production file SHA-256 equals the visually inspected first download.",
+    "Initial original share-file request failed with NETWORK; this does not establish a speed comparison.",
+    "First mapped developer probe used Windows default stdin encoding and failed before mapping Chinese JSON. Retried using UTF-8.",
+    "No attached Android device. New selection flow awaits user phone test.",
+    "No raw page JSON, signed media queries, cookies, downloaded video or screenshots included in source release."
+  ]
+}

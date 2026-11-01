@@ -1,0 +1,623 @@
+{
+  "version": "0.8.1",
+  "recordedAt": "2026-10-12T23:02:20.1621526+08:00",
+  "originalSourceFilesChecked": 121,
+  "unchangedOriginalSourceFiles": 115,
+  "oldPlatformParserFiles": 21,
+  "allOldParserFilesUnchanged": true,
+  "changes": [
+    "app/build.gradle.kts",
+    "app/src/main/java/io/github/douyinextractor/ui/HomeScreen.kt",
+    "core/src/main/kotlin/io/github/douyinextractor/core/diagnostics/DiagnosticReport.kt",
+    "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialExtractor.kt",
+    "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialUrls.kt",
+    "core/src/main/kotlin/io/github/douyinextractor/core/input/ShareTextParser.kt"
+  ],
+  "files": [
+    {
+      "path": "app/build.gradle.kts",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/MainActivity.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/browser/BrowserFallbackDialog.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/browser/BrowserSessionData.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadLocations.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadPanel.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadQueue.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadQueuePanel.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadQueueWorker.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadRuntime.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedDownloads.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedFeedback.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedVideoActions.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedVideosPanel.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedVideoThumbnail.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/VideoDownloadService.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/VideoStorage.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/HomeScreen.kt",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/MainViewModel.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/Theme.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/UiComponents.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/VideoCover.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/DownloadQueueTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/DownloadQueueWorkerTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/DownloadRecordTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/SavedDownloadSearchTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/SavedDownloadsTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/SavedDuplicateFinderTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/SavedFeedbackTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/download/SocialDownloadTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/ui/AutomaticBrowserTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/ui/MainViewModelTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "app/src/test/java/io/github/douyinextractor/ui/SocialViewModelTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserCaptureScript.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserLocalBlock.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserRequestTrace.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserSnapshotParser.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserUrlPolicy.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/diagnostics/DiagnosticReport.kt",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/diagnostics/ResolutionDiagnostics.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/DownloadModels.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/Mp4Inspector.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/VideoDownloader.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/VideoFilePublisher.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/PlatformVideoService.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/VideoExtractor.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliExtractor.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliHttpClient.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliMapping.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliUrls.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/DouyinExtractor.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinJsonMapper.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinPlaybackSource.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/MediaUrlPolicy.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/DouyinPageParser.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/JsonDocuments.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/MetadataParsers.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/PageParser.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/StateParsers.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialExtractor.kt",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialHttpClient.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialPageMapping.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/social/SocialUrls.kt",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/input/DouyinUrls.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/input/ShareTextParser.kt",
+      "unchanged": false,
+      "allowedIntegrationChange": true
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/ExtractError.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/LinkModels.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/MediaFormatSelector.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/MediaInfo.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinCoverClient.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinHttpClient.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinPageClient.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinUrlResolver.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserLocalBlockTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserRequestTraceTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserSnapshotParserTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserUrlPolicyTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/diagnostics/BrowserPageTraceTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/diagnostics/DiagnosticReportTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/DownloadLiveProbe.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/VideoDownloaderTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/VideoFilePublisherTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliHttpClientTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliLiveProbe.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/DouyinExtractorTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinJsonMapperTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinPlaybackSourceTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/MediaUrlPolicyTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/DouyinPageParserTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/social/SocialHttpClientTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/social/SocialLiveProbe.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/social/SocialTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/DouyinUrlsTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/ShareTextParserTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/UserShareRegressionTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/model/MediaFormatSelectorTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinCoverClientTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinHttpClientTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinPageClientTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinUrlResolverTest.kt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/input/linda-share.txt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/input/README.md",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/input/screenshot-shares.txt",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/mapping/multi-quality.json",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/mapping/README.md",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/empty-router-sanitized.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/html-media-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/jsonld-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/README.md",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/render-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/router-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/script-json-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    },
+    {
+      "path": "core/src/test/resources/parser/sigi-synthetic.html",
+      "unchanged": true,
+      "allowedIntegrationChange": false
+    }
+  ]
+}

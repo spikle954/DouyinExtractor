@@ -1,0 +1,464 @@
+{
+  "version": "0.7.1",
+  "recordedAt": "2026-10-09T19:28:23.0327336+08:00",
+  "protectedFiles": 86,
+  "allUnchanged": true,
+  "presentationExceptions": [
+    "ui/HomeScreen.kt",
+    "ui/Theme.kt",
+    "ui/VideoCover.kt",
+    "download/DownloadPanel.kt",
+    "download/DownloadQueuePanel.kt",
+    "download/SavedVideosPanel.kt"
+  ],
+  "uiCallbackChecks": [
+    {
+      "name": "DownloadPanel state, submit, permissions, directory result",
+      "unchanged": true
+    },
+    {
+      "name": "Download button duplicate check and selection",
+      "unchanged": true
+    },
+    {
+      "name": "Storage and duplicate dialogs",
+      "unchanged": true
+    },
+    {
+      "name": "Home lifecycle, navigation and completion feedback",
+      "unchanged": true
+    }
+  ],
+  "files": [
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/MainActivity.kt",
+      "unchanged": true,
+      "sha256": "8ee41cb3470c8d28237457c297e5047dd672d5ae4e51347015b11bc1e6e42021"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/browser/BrowserFallbackDialog.kt",
+      "unchanged": true,
+      "sha256": "d6432485f701f1cc609ae61758b8fafe3ffb770906b219df47e65abaca6d112d"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/browser/BrowserSessionData.kt",
+      "unchanged": true,
+      "sha256": "ab700d6287afeb8c82b8767d5a827e7392126b8de1ffd160f0dd0976e3552426"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadLocations.kt",
+      "unchanged": true,
+      "sha256": "9753d7624bebb460d553815051891305f14623ebccb216a00b2f9db1403a5585"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadQueue.kt",
+      "unchanged": true,
+      "sha256": "5e6d694637c903eeb44798c9bf257846e67760f376ec03c7222e7f99ecf82dbf"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadQueueWorker.kt",
+      "unchanged": true,
+      "sha256": "f735aff3cde1a7b49bbeb37c6194b98b6a311bd590e041ed9713e3c015eb9147"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/DownloadRuntime.kt",
+      "unchanged": true,
+      "sha256": "ab6a5826b76f35aaf902bc19fcbf614ebcef581f5f09b2a5f3b92a11b68f6b31"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedDownloads.kt",
+      "unchanged": true,
+      "sha256": "deb37782ea41923bbbf5bd90364a562fc173fcd814c86a15dfe5757e7983e0e6"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/SavedVideoActions.kt",
+      "unchanged": true,
+      "sha256": "23c6f22377dd9d5dcb784af50fd1b107ebff9e8bcece5c1dc55464cad1f03f4b"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/VideoDownloadService.kt",
+      "unchanged": true,
+      "sha256": "200222c0675162f13fbc3edaee1dbbb24dfa9e34ad8ecd2818f6724fc51bc8be"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/download/VideoStorage.kt",
+      "unchanged": true,
+      "sha256": "51fd5b2af58f2cc3bc416a8623376f739ad98ec21550b3d7c12f2569f702a9f6"
+    },
+    {
+      "path": "app/src/main/java/io/github/douyinextractor/ui/MainViewModel.kt",
+      "unchanged": true,
+      "sha256": "66b0e9a7107479f3bb63356cd378e1bfabb56050227ccb37c55c11eedae93d91"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserCaptureScript.kt",
+      "unchanged": true,
+      "sha256": "da5c3b7e15c8b622fbdb4d634acc78b22f3e42345e08d95e77efc6038b1b4562"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserLocalBlock.kt",
+      "unchanged": true,
+      "sha256": "f37ddff59285d62ee8590346eaf391670a3eaf9c365b12aed107d86225b32f42"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserRequestTrace.kt",
+      "unchanged": true,
+      "sha256": "ca2dbe87bcbd05a864f6f10031bffa553993827936f6236e7150c556ca557737"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserSnapshotParser.kt",
+      "unchanged": true,
+      "sha256": "154e096d95dcb7ed939f66c42285ed01d6a9f3cd2b756b50ae25de37180ed4c6"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/browser/BrowserUrlPolicy.kt",
+      "unchanged": true,
+      "sha256": "6a022897b58edd0c5fcf8181cf5b6379e2d39843fbf7ddc7fe4a8d32163a2e12"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/diagnostics/DiagnosticReport.kt",
+      "unchanged": true,
+      "sha256": "1cccb8654d826b6d28d45f5868086fedcf77b24e01904a51453ee5e93990dcf3"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/diagnostics/ResolutionDiagnostics.kt",
+      "unchanged": true,
+      "sha256": "078f19b7984167a2a1b3e6cecf7b1381b94a056cecbc3e4e72d5eb67e75d3670"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/DownloadModels.kt",
+      "unchanged": true,
+      "sha256": "ece1fb2d61e0537adc302da8cf2d25d558d5ec24c342ab0752fe76660f0c2a69"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/Mp4Inspector.kt",
+      "unchanged": true,
+      "sha256": "2c53b4c7c0712b084115ed139b4cfe5244bd3c3b10cfdaa4bc77a3b801b60ec1"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/VideoDownloader.kt",
+      "unchanged": true,
+      "sha256": "aad46a86b30ae3d40a0a667825b1a3a73cfe18ce3729fb62a9de5cdece55097a"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/download/VideoFilePublisher.kt",
+      "unchanged": true,
+      "sha256": "fef6a71aa9fd4f9e8e96e1d6b51c979e244c6f824a764eb34e44a9fbba4017ea"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/PlatformVideoService.kt",
+      "unchanged": true,
+      "sha256": "f92df014046ee227a7335ac2e829a8d1de4ff1ad7e3455fbbd8049dc189c70e8"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/VideoExtractor.kt",
+      "unchanged": true,
+      "sha256": "2cc75c184738e570dd85dccba66b55d4a32de63934a61360bf6d695aa1c5ed24"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliExtractor.kt",
+      "unchanged": true,
+      "sha256": "4d1535ad074cf9a4f0e247c81cd7477ba429432a2d4c546a86b31848cd012d8f"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliHttpClient.kt",
+      "unchanged": true,
+      "sha256": "371dc20542d772f38fdbc43e3d134c3a86998b026a42c0cfb9fad4530709ea90"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliMapping.kt",
+      "unchanged": true,
+      "sha256": "a2362c6dbd005f2d83e8989cbb2b9e5638b42dc67ed45524661dbbd1f60d464e"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliUrls.kt",
+      "unchanged": true,
+      "sha256": "14fb6c46a1129eb29840802101b6d9747db6412fdb1906e62e6c6645bade0a72"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/DouyinExtractor.kt",
+      "unchanged": true,
+      "sha256": "c6348930481025daccdd3f37ec0b7051fd5bb766d8949a4aed7cbce3c4a52162"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinJsonMapper.kt",
+      "unchanged": true,
+      "sha256": "c6eacb8327ce0316a8ccbc33bf651e19c5b11f826e9263b0a3a3d601f44799ea"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinPlaybackSource.kt",
+      "unchanged": true,
+      "sha256": "43a237da2836de1b836dde078939625ccf738ab1f827f2a0d750aacfdc72671d"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/MediaUrlPolicy.kt",
+      "unchanged": true,
+      "sha256": "c16da6980e8d6cd9266b3d02af8a09744ef47c24045bf832927777d0fba5851a"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/DouyinPageParser.kt",
+      "unchanged": true,
+      "sha256": "b593e8d1433e53522935ed408495c12a0900c04830b793aeae3ae446cbb5e293"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/JsonDocuments.kt",
+      "unchanged": true,
+      "sha256": "752a031730fef5d856ee703bb1a093fdbae86d4693c617e694b1f01a20c83651"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/MetadataParsers.kt",
+      "unchanged": true,
+      "sha256": "97eecb757e39454ed65548d9cf2f73d7a3b4347cb9991a7ab881ba0666c3833a"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/PageParser.kt",
+      "unchanged": true,
+      "sha256": "a9f927c70c6c9e7d8dcde0dcead47b0d4f75030fd526b21370928c0bf856e1af"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/StateParsers.kt",
+      "unchanged": true,
+      "sha256": "ea54f41c1120404b89ad13cef4a575a5bfad215cb5ace52450edcbb930099a9e"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/input/DouyinUrls.kt",
+      "unchanged": true,
+      "sha256": "81b04300a628e1f03472733e4ca1b8e8f33996e8d0b0e5c88bbf1a88ace0c2e9"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/input/ShareTextParser.kt",
+      "unchanged": true,
+      "sha256": "47e0ae55ac67a3fc08624891b463282d8be2e7c50346f10094b430e1b33da7f3"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/ExtractError.kt",
+      "unchanged": true,
+      "sha256": "139109d50ce89b11ca4945b7cef7cfd5bdc0c3e5e145326a06ec9e17c2295b34"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/LinkModels.kt",
+      "unchanged": true,
+      "sha256": "5a98f092f47c1edef108237993c349b7b31782decd4ec79f2f72e3fc60f57105"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/MediaFormatSelector.kt",
+      "unchanged": true,
+      "sha256": "1d117bee4b01e321c4aa2585a42a4d8e830c8d0d5c329e2c6d4418ae82c9f130"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/model/MediaInfo.kt",
+      "unchanged": true,
+      "sha256": "c6ecf337c3230b5e73a26342ba3389941db6f567968c0470c3447f3814f19aaa"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinCoverClient.kt",
+      "unchanged": true,
+      "sha256": "184a042664075d3adb279dd7cbf7bae4bb2dd850312e7a9f25b6cbffb2059eb9"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinHttpClient.kt",
+      "unchanged": true,
+      "sha256": "3084478ec79c77a526a3fdb4a68799f86ec91b2d39122877ebf6c07244cff07b"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinPageClient.kt",
+      "unchanged": true,
+      "sha256": "50bc351ea7096ac198074a760b5c6a27604a40352016de474236c12219cf44dd"
+    },
+    {
+      "path": "core/src/main/kotlin/io/github/douyinextractor/core/network/DouyinUrlResolver.kt",
+      "unchanged": true,
+      "sha256": "9067f5e1ddeb039116fe9768fef36cf522212e390805d6a40810fd8684340b66"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserLocalBlockTest.kt",
+      "unchanged": true,
+      "sha256": "a01c2b973e70b957e21cb5da7f995296282864873f7e65a792395be0c42ddf39"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserRequestTraceTest.kt",
+      "unchanged": true,
+      "sha256": "fd84c0627845da48b0d7ce0daa3519d4bd262a0eb28d3ab4d4eef8249c64fab4"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserSnapshotParserTest.kt",
+      "unchanged": true,
+      "sha256": "173c1bb8296d054cb16d09e169ee872efe1ddda8a97b7fffb8cf62ff50f9f822"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/browser/BrowserUrlPolicyTest.kt",
+      "unchanged": true,
+      "sha256": "106734995eb88331d10118d17212245c97c2e694c2fac1f0143a536f3fb6ea86"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/diagnostics/BrowserPageTraceTest.kt",
+      "unchanged": true,
+      "sha256": "febb1404b88d39a0e79b7b823a0d5c41e59abe4554c9e46edbf32cb41a6d708b"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/diagnostics/DiagnosticReportTest.kt",
+      "unchanged": true,
+      "sha256": "f23e15c97f6240d136adb89b81f0f10adec6b414a255ab075bcb95e2c5f626e0"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/DownloadLiveProbe.kt",
+      "unchanged": true,
+      "sha256": "51edfa3f874dd3e588baa116923fa85f08d232e9fe2ff1c77e496d3b40396d3a"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/VideoDownloaderTest.kt",
+      "unchanged": true,
+      "sha256": "cd383cc5e15af7b951940851a11599f259e0f63e308c49e69b3c029bc6871d61"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/download/VideoFilePublisherTest.kt",
+      "unchanged": true,
+      "sha256": "c83d38fd0a55d8d995423f8b2340d014d71d6052f1bc7ffb8ac89628fa4dfee8"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliHttpClientTest.kt",
+      "unchanged": true,
+      "sha256": "5cbf5a9c0292ed814453a946107447f81a06ea233656fea8172264e7d732e422"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliLiveProbe.kt",
+      "unchanged": true,
+      "sha256": "6e81777b7de234d93bba2c331aaba272e0e19f7be94808358424842ee25a99c8"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/bilibili/BilibiliTest.kt",
+      "unchanged": true,
+      "sha256": "d49c294839ed160d0f9f91335e9c7977c4c5045da97ea7ea11f1d4b98ccde955"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/DouyinExtractorTest.kt",
+      "unchanged": true,
+      "sha256": "77fb4bb65d8cb40745fe365cde4ca431e33507035caa5f810e7459be583b836c"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinJsonMapperTest.kt",
+      "unchanged": true,
+      "sha256": "3f70e723f7515f303fcfe306d3dde07cf4fd7adf02c6a9bc680475ad6279a0d3"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/DouyinPlaybackSourceTest.kt",
+      "unchanged": true,
+      "sha256": "9196f0fc9f619a9af789bd744b58b39d137651ece2b4a38c18935272e8d5aa08"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/mapping/MediaUrlPolicyTest.kt",
+      "unchanged": true,
+      "sha256": "5109ae12d3d1dcfd4ba362b9734fb3e04d732704167e1b40fea4a90b281d8538"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/extractor/douyin/parser/DouyinPageParserTest.kt",
+      "unchanged": true,
+      "sha256": "579114b1768b0190737a842bd89853b6ac75f65709a9392853d1c6ec4d8e36f0"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/DouyinUrlsTest.kt",
+      "unchanged": true,
+      "sha256": "eda794a8b26da967730dc9e581e7987d98aba7504e24f6e7a1b37b652d5d8bfc"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/ShareTextParserTest.kt",
+      "unchanged": true,
+      "sha256": "59d60e1c42bc9615e512e3760f54c8a714d588f3e6ed2259e8247da983ad87d5"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/input/UserShareRegressionTest.kt",
+      "unchanged": true,
+      "sha256": "0ef8fe8265668ba00002d9b45576b5d15ca4e9f12a99692a328ff19f8edf797d"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/model/MediaFormatSelectorTest.kt",
+      "unchanged": true,
+      "sha256": "b0e0384bc3927c342c64fd76a2b19b913fa653b2f9c0e135f3687e6c56de1934"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinCoverClientTest.kt",
+      "unchanged": true,
+      "sha256": "861402915692bb4795b0af8621d0e36fb58b489d3a05e30249bbda88ae555f2c"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinHttpClientTest.kt",
+      "unchanged": true,
+      "sha256": "7a831f5ffd415297aac12f1e91fb6449da8f571f4c1836a931679decd7bc28ef"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinPageClientTest.kt",
+      "unchanged": true,
+      "sha256": "8db24f001eaf76bce3c99bc53f808adf8307a844988e9513f984dc6fd867d45c"
+    },
+    {
+      "path": "core/src/test/kotlin/io/github/douyinextractor/core/network/DouyinUrlResolverTest.kt",
+      "unchanged": true,
+      "sha256": "b9d178d8564240f4dfcbf0f2a2c1ceb18f0eca6a0cfe2415d872265bdf341e10"
+    },
+    {
+      "path": "core/src/test/resources/input/linda-share.txt",
+      "unchanged": true,
+      "sha256": "a5f46e5b620fee306b61e2929a6aea2ab582a72829664dcf392673a453bfa093"
+    },
+    {
+      "path": "core/src/test/resources/input/README.md",
+      "unchanged": true,
+      "sha256": "bbda041e8b8f629443687dc107342d20c93f43ba1d22c3d884fd9b6c1115ab5f"
+    },
+    {
+      "path": "core/src/test/resources/input/screenshot-shares.txt",
+      "unchanged": true,
+      "sha256": "1c14d67d936b5e655896291163d6c5dfc7bd823e774b92d609c2048340bcfef1"
+    },
+    {
+      "path": "core/src/test/resources/mapping/multi-quality.json",
+      "unchanged": true,
+      "sha256": "8272a6048a182dc8024f5e59326013fdead1c717a6a4e6f940d5458479147ab7"
+    },
+    {
+      "path": "core/src/test/resources/mapping/README.md",
+      "unchanged": true,
+      "sha256": "a7d4e22db093ac676e94c2ac879096e0ae050d3cb02033b31762e019ac8a35ac"
+    },
+    {
+      "path": "core/src/test/resources/parser/empty-router-sanitized.html",
+      "unchanged": true,
+      "sha256": "19d5ef92b0b246ec59d04f85b8df20a32c4708b4a56baa17764134fcc81b05a3"
+    },
+    {
+      "path": "core/src/test/resources/parser/html-media-synthetic.html",
+      "unchanged": true,
+      "sha256": "e9a7ac7f6591e16f7bb43a6b84fd88610dd37ffda4cf95353abb39b65c3c9559"
+    },
+    {
+      "path": "core/src/test/resources/parser/jsonld-synthetic.html",
+      "unchanged": true,
+      "sha256": "f16dd8a9cdc562835d5520bbc30b10cffc20ff5a3e8bfe4ea620fdad97335dc8"
+    },
+    {
+      "path": "core/src/test/resources/parser/README.md",
+      "unchanged": true,
+      "sha256": "ac407ceecc33729326c19b65e67cf1d0c03c48493d77adef4b25a11d5fb80fe5"
+    },
+    {
+      "path": "core/src/test/resources/parser/render-synthetic.html",
+      "unchanged": true,
+      "sha256": "9b5ca1cc3667add38e3f33bf1b36b1a25a725717cac2106f7a9d4a4dc4c37239"
+    },
+    {
+      "path": "core/src/test/resources/parser/router-synthetic.html",
+      "unchanged": true,
+      "sha256": "c6a6bf47e602ccbc19021e4bc840097d533e7087309afe1fb8b3b5e431909f90"
+    },
+    {
+      "path": "core/src/test/resources/parser/script-json-synthetic.html",
+      "unchanged": true,
+      "sha256": "728bcc2898ad1ee622f4d3a8dee22591407cdf80d3c54d88a5b710fadec5d9f2"
+    },
+    {
+      "path": "core/src/test/resources/parser/sigi-synthetic.html",
+      "unchanged": true,
+      "sha256": "86c1a18a91d5da8b4853bcaab5804b7e25f24fec30599a932a08f3f492c6d4cf"
+    }
+  ]
+}

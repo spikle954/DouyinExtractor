@@ -1,0 +1,1823 @@
+{
+  "observedAtUtc": "2026-10-03T07:29:48.254Z",
+  "observedAtAsiaShanghai": "2026-10-03 15:29:48 +08:00",
+  "method": "Anonymous Node fetch --use-env-proxy; desktop UA for PC page and mobile UA otherwise; exact HTTPS host allowlist; manual redirects capped at 8; 25-second request timeout; 2-MiB response cap. No browser JavaScript, login, imported cookies, signatures, private APIs, or third-party parser services. _ROUTER_DATA read using quote-aware balanced JSON scanner and JSON.parse, never eval.",
+  "samples": [
+    {
+      "label": "raven-pc",
+      "input": "https://www.douyin.com/video/7692025418936749322",
+      "userAgent": "desktop Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://www.douyin.com/video/7692025418936749322",
+          "status": 200,
+          "contentType": "text/html",
+          "location": null,
+          "bytes": 72914,
+          "sha256": "9b56a6acdcb27eb620b5ee1ad870ad67964c70131b6fc31e8bd946b39c1e309e",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": false,
+          "routerShape": null,
+          "mediaKeyCounts": null
+        }
+      ]
+    },
+    {
+      "label": "raven-ies",
+      "input": "https://www.iesdouyin.com/share/video/7692025418936749322/",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7692025418936749322/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 32518,
+          "sha256": "48237dd4364afbbdeab4fe073b3d2920943ea84969300043e8cfb071cf156d8a",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {},
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {},
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    },
+    {
+      "label": "raven-mobile",
+      "input": "https://m.douyin.com/share/video/7692025418936749322",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://m.douyin.com/share/video/7692025418936749322",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 32486,
+          "sha256": "aca56f9a1260bc2777bc0b7633f7a21e29a92ee49c288af7ac04dee4faf180f4",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {},
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {},
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    },
+    {
+      "label": "cartoon-pc",
+      "input": "https://www.douyin.com/video/7687957792199747682",
+      "userAgent": "desktop Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://www.douyin.com/video/7687957792199747682",
+          "status": 200,
+          "contentType": "text/html",
+          "location": null,
+          "bytes": 72914,
+          "sha256": "9b56a6acdcb27eb620b5ee1ad870ad67964c70131b6fc31e8bd946b39c1e309e",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": false,
+          "routerShape": null,
+          "mediaKeyCounts": null
+        }
+      ]
+    },
+    {
+      "label": "cartoon-ies",
+      "input": "https://www.iesdouyin.com/share/video/7687957792199747682/",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7687957792199747682/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 32518,
+          "sha256": "1a98d2f0086e5936ce606fd52f87772ac719c9ce22c3d58210676d2617cf0bea",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {},
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {},
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    },
+    {
+      "label": "cartoon-mobile",
+      "input": "https://m.douyin.com/share/video/7687957792199747682",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://m.douyin.com/share/video/7687957792199747682",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 32486,
+          "sha256": "bd5850634e5b43de719490921bf9099471175920de809394e1489d1caea865fe",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {},
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {},
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    },
+    {
+      "label": "raven-short",
+      "input": "https://v.douyin.com/wSBRL63s87s/",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://v.douyin.com/wSBRL63s87s/",
+          "status": 302,
+          "contentType": "text/html; charset=utf-8",
+          "location": "https://www.iesdouyin.com/share/video/7692025418936749322/",
+          "bytes": 995,
+          "sha256": "0cdc81e69d98be264984e99dcc4823a6c168e86cb2f8a8286db570e513759f3e",
+          "scripts": [],
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": false,
+          "routerShape": null,
+          "mediaKeyCounts": null
+        },
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7692025418936749322/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 35941,
+          "sha256": "27dc5ba788b86e3fa246fff41f3c2d4c9cc77bd83c7ed22c64af6aafd113d625",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {
+                  "region": "string",
+                  "mid": "string",
+                  "u_code": "string",
+                  "did": "string",
+                  "iid": "string",
+                  "with_sec_did": "string",
+                  "video_share_track_ver": "string",
+                  "titleType": "string",
+                  "share_sign": "string",
+                  "share_version": "string",
+                  "ts": "string",
+                  "from_aid": "string",
+                  "from_ssr": "string",
+                  "share_track_info": "string",
+                  "utm_source": "string",
+                  "utm_campaign": "string",
+                  "utm_medium": "string",
+                  "app": "string",
+                  "ug_share_id": "string",
+                  "activity_info": "string",
+                  "share_extra_params": "string"
+                },
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {
+                    "region": "string",
+                    "mid": "string",
+                    "u_code": "string",
+                    "did": "string",
+                    "iid": "string",
+                    "with_sec_did": "string",
+                    "video_share_track_ver": "string",
+                    "titleType": "string",
+                    "share_sign": "string",
+                    "share_version": "string",
+                    "ts": "string",
+                    "from_aid": "string",
+                    "from_ssr": "string",
+                    "share_track_info": "string",
+                    "utm_source": "string",
+                    "utm_campaign": "string",
+                    "utm_medium": "string",
+                    "app": "string",
+                    "ug_share_id": "string",
+                    "activity_info": "string",
+                    "share_extra_params": "string"
+                  },
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    },
+    {
+      "label": "cartoon-short",
+      "input": "https://v.douyin.com/zwSH5EHjgVs/",
+      "userAgent": "mobile Chrome",
+      "completed": true,
+      "hops": [
+        {
+          "requestedUrl": "https://v.douyin.com/zwSH5EHjgVs/",
+          "status": 302,
+          "contentType": "text/html; charset=utf-8",
+          "location": "https://www.iesdouyin.com/share/video/7687957792199747682/",
+          "bytes": 990,
+          "sha256": "9e090e6fb591222e4d16772a343d17521ee0d37100fc5021140928d978126d75",
+          "scripts": [],
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": false,
+          "routerShape": null,
+          "mediaKeyCounts": null
+        },
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7687957792199747682/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "bytes": 35921,
+          "sha256": "3a32978478336d626e34d9174a8dacc2d559164ea81568038ce26cb1866bca56",
+          "scripts": [
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": "207",
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__adapt-app-script",
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS__",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": "__LOADABLE_REQUIRED_CHUNKS___ext",
+              "type": "application/json",
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": true
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            },
+            {
+              "id": null,
+              "type": null,
+              "external": false
+            }
+          ],
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          },
+          "routerParsed": true,
+          "routerShape": {
+            "loaderData": {
+              "video_layout": null,
+              "video_(id)/page": {
+                "ua": "string",
+                "isSpider": "boolean",
+                "webId": "string",
+                "query": {
+                  "region": "string",
+                  "mid": "string",
+                  "u_code": "string",
+                  "did": "string",
+                  "iid": "string",
+                  "with_sec_did": "string",
+                  "video_share_track_ver": "string",
+                  "titleType": "string",
+                  "share_sign": "string",
+                  "share_version": "string",
+                  "ts": "string",
+                  "from_aid": "string",
+                  "from_ssr": "string",
+                  "share_track_info": "string",
+                  "utm_source": "string",
+                  "utm_campaign": "string",
+                  "utm_medium": "string",
+                  "app": "string",
+                  "ug_share_id": "string",
+                  "activity_info": "string",
+                  "share_extra_params": "string"
+                },
+                "renderInSSR": "number",
+                "lastPath": "string",
+                "appName": "string",
+                "host": "string",
+                "isNotSupportWebp": "boolean",
+                "commonContext": {
+                  "ua": "string",
+                  "isSpider": "boolean",
+                  "webId": "string",
+                  "query": {
+                    "region": "string",
+                    "mid": "string",
+                    "u_code": "string",
+                    "did": "string",
+                    "iid": "string",
+                    "with_sec_did": "string",
+                    "video_share_track_ver": "string",
+                    "titleType": "string",
+                    "share_sign": "string",
+                    "share_version": "string",
+                    "ts": "string",
+                    "from_aid": "string",
+                    "from_ssr": "string",
+                    "share_track_info": "string",
+                    "utm_source": "string",
+                    "utm_campaign": "string",
+                    "utm_medium": "string",
+                    "app": "string",
+                    "ug_share_id": "string",
+                    "activity_info": "string",
+                    "share_extra_params": "string"
+                  },
+                  "renderInSSR": "number",
+                  "lastPath": "string",
+                  "appName": "string",
+                  "host": "string",
+                  "isNotSupportWebp": "boolean"
+                },
+                "isAiDouyinOpt": "string",
+                "itemId": "string",
+                "isVideoOptimize": "boolean",
+                "openDirectGroup": "string",
+                "isVideoStyleOptimize": "boolean",
+                "isButtonOptimize": "boolean",
+                "isAutoOpenApp": "boolean",
+                "darkModeAdaptation": "boolean",
+                "serverToken": "string",
+                "abParams": {
+                  "reflow_video_page_optimize": "string",
+                  "search_video_mark_abtest": "string",
+                  "share_page_dark_mode_adaptation": "string",
+                  "reflow_page_open_app_optimize": "string",
+                  "reflow_page_auto_open_optimize": "string",
+                  "reflow_to_featured_app": "string",
+                  "select_pool_data": {
+                    "use_new_select_scope": "number"
+                  },
+                  "jx_label_display_position_list": {
+                    "type": "array",
+                    "length": 2,
+                    "sampleShape": "string"
+                  },
+                  "reflow_page_615883_optimaze": "boolean",
+                  "show_rec_group_list": "string",
+                  "is_use_ulink": "boolean"
+                }
+              }
+            },
+            "errors": null
+          },
+          "mediaKeyCounts": {}
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "HTTP 200 and video IDs in URLs are not extraction success.",
+    "Media-key counts traverse successfully parsed state; marker presence alone is not evidence of playable resources.",
+    "Queries and fragments are removed from report URLs. Raw pages remain in work/phase3-research only and are excluded from source deliverables.",
+    "These observations apply only to this development machine/network. Device results may differ."
+  ]
+}

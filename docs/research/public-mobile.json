@@ -1,0 +1,35 @@
+{
+  "label": "public-mobile",
+  "observedAt": "2026-10-03T06:29:42.951Z",
+  "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36",
+  "chain": [
+    {
+      "url": "https://www.iesdouyin.com/share/video/7648452057669717267/",
+      "status": 200,
+      "location": null,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 32518,
+      "sha256": "7028f8379633934348d8f703924757dcd2be110721fe7dfa4ea3338eb2d94112",
+      "markers": {
+        "_ROUTER_DATA": true,
+        "RENDER_DATA": false,
+        "SIGI_STATE": false,
+        "SSR_HYDRATED_DATA": false,
+        "__INITIAL_STATE__": false,
+        "__NEXT_DATA__": false,
+        "application/ld+json": false,
+        "self.__next_f.push": false,
+        "videoInfoRes": false,
+        "aweme_detail": false,
+        "play_addr": false,
+        "bit_rate": false,
+        "captcha": true,
+        "验证码": false,
+        "验证": false,
+        "登录": false
+      },
+      "scriptCount": 36,
+      "title": "在抖音记录美好生活20261003 - 抖音"
+    }
+  ]
+}

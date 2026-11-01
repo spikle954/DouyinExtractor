@@ -1,0 +1,212 @@
+{
+  "version": "0.8.3",
+  "samples": [
+    {
+      "label": "kuaishou-lite-user",
+      "success": true,
+      "id": "3xucdsfddb9cz4m",
+      "platform": "Kuaishou",
+      "title": "“桃子”邪修怎么记？ #邪修英语 #开学季 #未来预备班 #开学有招",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 12166,
+      "bytes": 3780364,
+      "sha256": "9b42e2381d73132cb703d4198affa48314e2aeed1c83dd97a206a6a58fc07b90",
+      "host": "v23-3.kwaicdn.com",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 92388 字符。\n快手作品页面：已保留官方分享路由标记；未保留用户标识或跟踪字段。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T05:07:02.861Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 12167,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12282,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "label": "kuaishou-canonical-user",
+      "success": true,
+      "id": "3xucdsfddb9cz4m",
+      "platform": "Kuaishou",
+      "title": "“桃子”邪修怎么记？ #邪修英语 #开学季 #未来预备班 #开学有招",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 12166,
+      "bytes": 3780364,
+      "sha256": "9b42e2381d73132cb703d4198affa48314e2aeed1c83dd97a206a6a58fc07b90",
+      "host": "v23-3.kwaicdn.com",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74833 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 92266 字符。\n快手作品页面：已保留官方分享路由标记；未保留用户标识或跟踪字段。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T05:07:05.845Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 12167,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12282,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "label": "kuaishou-normal-regression",
+      "success": true,
+      "id": "3xgp7zntw6w2zqq",
+      "platform": "Kuaishou",
+      "title": "打了个出租车",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 5433,
+      "bytes": 1197962,
+      "sha256": "d8c3b707fd9b46af6a7c1563ac81a6371b8a3bf83a2f7d55b23c924109ca657f",
+      "host": "v1.kwaicdn.com",
+      "trace": "快手短链定位：主机 v.kuaishou.com；HTTP 302；类型 未提供；已读取 0 字符。\n已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 74835 字符。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 0；地址候选 0；受支持 MP4 0；被筛除地址 0。不记录页面内容或资源地址。\n快手电脑版页面未取得目标媒体，尝试同一作品的官方手机分享入口一次；尚未提取成功。\n快手页面提取：主机 v.m.chenzhongtech.com；HTTP 302；类型 未提供；已读取 0 字符。\n快手页面提取：主机 www.kuaishou.com；HTTP 200；类型 HTML；已读取 89270 字符。\n快手作品页面：已保留官方分享路由标记；未保留用户标识或跟踪字段。\nParser SocialState：脚本 8；状态块 1；可解析状态 1；目标作品状态 1；地址候选 6；受支持 MP4 6；被筛除地址 0。不记录页面内容或资源地址。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T05:07:07.754Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 5433,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 5572,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "label": "xhs-regression",
+      "success": true,
+      "id": "6abcd793000000001802cf95",
+      "platform": "Xiaohongshu",
+      "title": "在网上买了一个耿鬼开关 #耿鬼[话题]# #宝可梦[话题]# #开关[话题]# #3d打印[话题]#",
+      "formats": 4,
+      "width": 720,
+      "height": 960,
+      "durationMs": 12584,
+      "bytes": 2799265,
+      "sha256": "9eef9c335b819cadb8aeec31440b1f8324307bf3ec65f783ea7d2aba73f87002",
+      "host": "sns-video-qc.xhscdn.com",
+      "trace": "小红书短链定位：主机 xhslink.cn；HTTP 302；类型 HTML；已读取 0 字符。\n已识别小红书作品编号，将读取当前公开作品页面；未使用登录信息。\n小红书页面提取：主机 www.xiaohongshu.com；HTTP 200；类型 HTML；已读取 64308 字符。\nParser SocialState：脚本 15；状态块 1；可解析状态 1；目标作品状态 1；地址候选 4；受支持 MP4 4；被筛除地址 0。不记录页面内容或资源地址。\n找到 4 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-13T05:07:09.820Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 960,
+          "durationMs": 12567,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12584,
+          "codec": "mp4a"
+        }
+      ]
+    }
+  ],
+  "routeComparison": {
+    "observedAt": "2026-10-13T05:07:09.874Z",
+    "id": "3xucdsfddb9cz4m",
+    "method": "Anonymous HTTPS GET parameter comparison; no cookies; route fields observed on official redirect; target text is an observation, production parser separately verifies binding",
+    "routing": [
+      {
+        "name": "location",
+        "value": "app_share"
+      },
+      {
+        "name": "utm_source",
+        "value": "app_share"
+      },
+      {
+        "name": "utm_medium",
+        "value": "app_share"
+      },
+      {
+        "name": "utm_campaign",
+        "value": "app_share"
+      }
+    ],
+    "observations": [
+      {
+        "fields": [],
+        "status": 200,
+        "chars": 74833,
+        "targetIdTextPresent": false
+      },
+      {
+        "fields": [
+          "location"
+        ],
+        "status": 200,
+        "chars": 92389,
+        "targetIdTextPresent": true
+      },
+      {
+        "fields": [
+          "utm_source"
+        ],
+        "status": 200,
+        "chars": 92265,
+        "targetIdTextPresent": true
+      },
+      {
+        "fields": [
+          "utm_medium"
+        ],
+        "status": 200,
+        "chars": 92511,
+        "targetIdTextPresent": true
+      },
+      {
+        "fields": [
+          "utm_campaign"
+        ],
+        "status": 200,
+        "chars": 92385,
+        "targetIdTextPresent": true
+      },
+      {
+        "fields": [
+          "location",
+          "utm_source",
+          "utm_medium",
+          "utm_campaign"
+        ],
+        "status": 200,
+        "chars": 92509,
+        "targetIdTextPresent": true
+      }
+    ]
+  },
+  "scope": "Real production core extraction and full MP4 download; actual AVC/AAC tracks independently inspected. No Android runtime or handset pass claim."
+}

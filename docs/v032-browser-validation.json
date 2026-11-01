@@ -1,0 +1,69 @@
+{
+  "method": "Isolated desktop Chrome CDP sessions, normal Chromium sandbox and TLS, public page runtime only; no imported browser data or direct detail API calls.",
+  "limitation": "Not Android runtime QA; target media extraction failed in every observed run. Earlier capture mismatch was fixed and verified in the final run.",
+  "sampleId": "7691911860576128310",
+  "runs": [
+    {
+      "label": "App resource policy",
+      "observedAt": "2026-10-03T08:27:41.068Z",
+      "requestCount": 40,
+      "blockedCount": 9,
+      "documentState": "complete",
+      "genericPageError": true,
+      "videoCount": 0,
+      "hasVideoInfoRes": false
+    },
+    {
+      "label": "Allow two observed static scripts only",
+      "observedAt": "2026-10-03T08:31:34.957Z",
+      "requestCount": 47,
+      "blockedCount": 13,
+      "documentState": "complete",
+      "genericPageError": true,
+      "videoCount": 0,
+      "hasVideoInfoRes": false
+    },
+    {
+      "label": "Ordinary HTTPS subresources without App allowlist",
+      "observedAt": "2026-10-03T08:34:22.740Z",
+      "requestCount": 62,
+      "blockedCount": 0,
+      "documentState": "complete",
+      "genericPageError": true,
+      "videoCount": 0,
+      "hasVideoInfoRes": false,
+      "capture": {
+        "blocker": {
+          "verification": false,
+          "login": false,
+          "webPlaybackUnavailable": false
+        },
+        "readyState": "complete",
+        "videoCount": 0,
+        "captureFailed": false,
+        "scriptSha256": "c154c7e30639a76aeb77a54b62a1a6868f6f92c50823e61fbff6c79d6b359c67"
+      }
+    },
+    {
+      "label": "Final capture script on actual error DOM",
+      "observedAt": "2026-10-03T08:40:09.299Z",
+      "requestCount": 65,
+      "blockedCount": 0,
+      "documentState": "complete",
+      "genericPageError": true,
+      "videoCount": 0,
+      "hasVideoInfoRes": false,
+      "capture": {
+        "blocker": {
+          "verification": false,
+          "login": false,
+          "webPlaybackUnavailable": true
+        },
+        "readyState": "complete",
+        "videoCount": 0,
+        "captureFailed": false,
+        "scriptSha256": "f4a150c24daa43a216060e12431286905220b7d34b2ddc7fd13804149c2a5a89"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "variant": "core",
+    "suite": "io.github.douyinextractor.core.diagnostics.DiagnosticReportTest",
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "core",
+    "suite": "io.github.douyinextractor.core.input.DouyinUrlsTest",
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "core",
+    "suite": "io.github.douyinextractor.core.input.ShareTextParserTest",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "core",
+    "suite": "io.github.douyinextractor.core.network.DouyinHttpClientTest",
+    "tests": 7,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "core",
+    "suite": "io.github.douyinextractor.core.network.DouyinUrlResolverTest",
+    "tests": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "app-debug",
+    "suite": "io.github.douyinextractor.ui.MainViewModelTest",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "variant": "app-release",
+    "suite": "io.github.douyinextractor.ui.MainViewModelTest",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+]

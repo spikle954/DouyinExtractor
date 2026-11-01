@@ -1,0 +1,245 @@
+{
+  "artifact": "拾影 Android UI/UX 设计方案",
+  "date": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "status": "DESIGN_ONLY_AWAITING_SELECTION",
+  "note": "设计值，尚未写入 Android 项目；生成图片为效果参考，具体值以本文件和设计规范为准。",
+  "units": {
+    "layout": "dp",
+    "typography": "sp",
+    "image": "px",
+    "colors": "sRGB HEX"
+  },
+  "colorSchemes": {
+    "A": {
+      "name": "Material 3 · 清简",
+      "background": "#111817",
+      "surface": "#111817",
+      "surfaceContainer": "#1A2421",
+      "surfaceContainerHigh": "#25312C",
+      "primary": "#83D8C6",
+      "onPrimary": "#00382F",
+      "primaryContainer": "#124B40",
+      "onPrimaryContainer": "#C0F3E5",
+      "onSurface": "#E1ECE7",
+      "onSurfaceVariant": "#B6C7BF",
+      "outline": "#82968B",
+      "outlineVariant": "#34443C",
+      "error": "#FFB4AB",
+      "errorContainer": "#59332F",
+      "onErrorContainer": "#FFDAD5",
+      "scrim": "#000000",
+      "scrimAlpha": 0.4,
+      "secondary": "#BBCFC5",
+      "onSecondary": "#263A31",
+      "secondaryContainer": "#344C40",
+      "onSecondaryContainer": "#D8EBDD",
+      "tertiary": "#AACBD0",
+      "onTertiary": "#14343A",
+      "tertiaryContainer": "#2C4C52",
+      "onTertiaryContainer": "#CFEAF0",
+      "onError": "#601410",
+      "surfaceDim": "#111817",
+      "surfaceBright": "#2B3832",
+      "surfaceContainerLowest": "#0C120F",
+      "surfaceContainerLow": "#161F1B",
+      "surfaceContainerHighest": "#2D3A33",
+      "surfaceVariant": "#34443C",
+      "surfaceTint": "#83D8C6",
+      "inverseSurface": "#E1ECE7",
+      "inverseOnSurface": "#27352E",
+      "inversePrimary": "#21695B"
+    },
+    "B": {
+      "name": "拾影 · 精工青绿",
+      "background": "#0C1315",
+      "surface": "#0C1315",
+      "surfaceContainer": "#172225",
+      "surfaceContainerHigh": "#1E2D30",
+      "primary": "#56DDC3",
+      "onPrimary": "#062D26",
+      "primaryContainer": "#154B42",
+      "onPrimaryContainer": "#BAF2E4",
+      "onSurface": "#F0F7F4",
+      "onSurfaceVariant": "#ADBEB8",
+      "outline": "#698A82",
+      "outlineVariant": "#263B36",
+      "error": "#FFB4AB",
+      "errorContainer": "#59332F",
+      "onErrorContainer": "#FFDAD5",
+      "scrim": "#000000",
+      "scrimAlpha": 0.4,
+      "secondary": "#AACBC1",
+      "onSecondary": "#1A3830",
+      "secondaryContainer": "#2D4A42",
+      "onSecondaryContainer": "#D2EEE4",
+      "tertiary": "#A3C7D1",
+      "onTertiary": "#153039",
+      "tertiaryContainer": "#2A4954",
+      "onTertiaryContainer": "#D1E9F1",
+      "onError": "#601410",
+      "surfaceDim": "#0C1315",
+      "surfaceBright": "#2E4044",
+      "surfaceContainerLowest": "#080D0F",
+      "surfaceContainerLow": "#111B1D",
+      "surfaceContainerHighest": "#273B40",
+      "surfaceVariant": "#263B36",
+      "surfaceTint": "#56DDC3",
+      "inverseSurface": "#F0F7F4",
+      "inverseOnSurface": "#213331",
+      "inversePrimary": "#116E5D"
+    }
+  },
+  "typography": {
+    "pageTitle": {
+      "size": 22,
+      "lineHeight": 28,
+      "weight": 600
+    },
+    "sectionTitle": {
+      "size": 18,
+      "lineHeight": 24,
+      "weight": 600
+    },
+    "body": {
+      "size": 16,
+      "lineHeight": 24,
+      "weight": 400
+    },
+    "recordTitle": {
+      "size": 16,
+      "lineHeight": 24,
+      "weight": 500
+    },
+    "button": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 600
+    },
+    "secondary": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 400
+    },
+    "metadata": {
+      "size": 12,
+      "lineHeight": 18,
+      "weight": 400
+    },
+    "progress": {
+      "size": 20,
+      "lineHeight": 28,
+      "weight": 500
+    }
+  },
+  "spacing": {
+    "grid": 4,
+    "micro": 4,
+    "related": 8,
+    "component": 12,
+    "container": 16,
+    "section": 24
+  },
+  "schemeLayout": {
+    "A": {
+      "screenMargin": 16,
+      "containerRadius": 20,
+      "buttonRadius": 28,
+      "inputRadius": 20,
+      "searchRadius": 16,
+      "sheetTopRadius": 28,
+      "menuRadius": 16,
+      "dialogRadius": 28,
+      "recordMinHeight": 88,
+      "recordThumbnail": {
+        "width": 48,
+        "height": 64,
+        "radius": 8
+      }
+    },
+    "B": {
+      "screenMargin": 20,
+      "containerRadius": 12,
+      "buttonRadius": 14,
+      "inputRadius": 12,
+      "searchRadius": 12,
+      "sheetTopRadius": 24,
+      "menuRadius": 12,
+      "dialogRadius": 24,
+      "recordMinHeight": 80,
+      "recordThumbnail": {
+        "width": 40,
+        "height": 56,
+        "radius": 6
+      }
+    }
+  },
+  "componentSizes": {
+    "appBarMinHeight": 56,
+    "primaryButtonMinHeight": 52,
+    "secondaryButtonMinHeight": 48,
+    "touchTargetMinWidth": 48,
+    "touchTargetMinHeight": 48,
+    "icon": 24,
+    "inputMinHeight": 136,
+    "searchMinHeight": 56,
+    "resourceMinHeight": 64,
+    "destinationMinHeight": 56,
+    "progressThickness": 4,
+    "resultThumbnail": {
+      "width": 80,
+      "height": 106
+    },
+    "successThumbnail": {
+      "width": 56,
+      "height": 72
+    },
+    "successSheetTargetHeight": {
+      "min": 340,
+      "max": 370,
+      "hardMaximum": false,
+      "systemInsetsExcluded": true
+    }
+  },
+  "interaction": {
+    "focusedBorderWidth": 2,
+    "stateLayerAlpha": 0.12,
+    "disabledContainerAlpha": 0.12,
+    "disabledContentAlpha": 0.38,
+    "motion": "Native Material ripple and meaningful progress only; no custom decorative animation",
+    "clipboard": "Only explicit paste reads clipboard",
+    "success": "No interruption of another input/parse workflow; one-shot result sheet or gentle view action",
+    "queue": "Preserve serial limit20 and reparse-on-restart",
+    "records": "Preserve local limit50 and existing search",
+    "duplicate": "Preserve platform + video ID + Bilibili part and file access checks"
+  },
+  "adaptive": {
+    "referenceWindow": {
+      "width": 390,
+      "height": 844
+    },
+    "verificationWindows": [
+      {
+        "width": 360,
+        "height": 800
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 412,
+        "height": 915
+      }
+    ],
+    "fontScales": [
+      1,
+      1.3,
+      1.5,
+      2
+    ],
+    "systemInsets": "runtime WindowInsets; no fixed fake OS bar height",
+    "keyboard": "IME-safe, scrollable input and parse action",
+    "verifiedOnDevice": false
+  }
+}

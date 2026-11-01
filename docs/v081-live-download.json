@@ -1,0 +1,70 @@
+{
+  "version": "0.8.1",
+  "samples": [
+    {
+      "success": true,
+      "id": "3xucdsfddb9cz4m",
+      "platform": "Kuaishou",
+      "title": "“桃子”邪修怎么记？ #邪修英语 #开学季 #未来预备班 #开学有招",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 12166,
+      "bytes": 3780364,
+      "sha256": "9b42e2381d73132cb703d4198affa48314e2aeed1c83dd97a206a6a58fc07b90",
+      "host": "v1.kwaicdn.com",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手公开作品页面：HTTP 200；媒体地址和访问参数不写入诊断。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-12T14:48:08.756Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 12167,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 12282,
+          "codec": "mp4a"
+        }
+      ]
+    },
+    {
+      "success": true,
+      "id": "3xgp7zntw6w2zqq",
+      "platform": "Kuaishou",
+      "title": "打了个出租车",
+      "formats": 6,
+      "width": 720,
+      "height": 1280,
+      "durationMs": 5433,
+      "bytes": 1197962,
+      "sha256": "d8c3b707fd9b46af6a7c1563ac81a6371b8a3bf83a2f7d55b23c924109ca657f",
+      "host": "v23-3.kwaicdn.com",
+      "trace": "已识别快手作品编号，将读取当前公开作品页面；未使用登录信息。\n快手公开作品页面：HTTP 200；媒体地址和访问参数不写入诊断。\n找到 6 个目标作品的公开 MP4 候选；是否可用及实际尺寸需下载验证。",
+      "observedAt": "2026-10-12T14:48:10.398Z",
+      "method": "Actual production ShareTextParser + PlatformVideoService + VideoDownloader; MP4 container validation; no Android storage or UI runtime",
+      "actualTracks": [
+        {
+          "type": "vide",
+          "width": 720,
+          "height": 1280,
+          "durationMs": 5433,
+          "codec": "avc1"
+        },
+        {
+          "type": "soun",
+          "width": 0,
+          "height": 0,
+          "durationMs": 5572,
+          "codec": "mp4a"
+        }
+      ]
+    }
+  ],
+  "scope": "Production core extraction and full MP4 download plus independent video/audio track inspection; Android share intents and system saving not run."
+}

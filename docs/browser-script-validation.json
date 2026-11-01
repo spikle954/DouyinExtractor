@@ -1,0 +1,158 @@
+{
+  "method": "Node V8 vm executing actual fixed capture JS extracted from Kotlin with deterministic synthetic DOM stubs; this is not browser or Android WebView runtime QA",
+  "observedAt": "2026-10-03T08:41:26.231Z",
+  "sourceSha256": "da5c3b7e15c8b622fbdb4d634acc78b22f3e42345e08d95e77efc6038b1b4562",
+  "scriptSha256": "f4a150c24daa43a216060e12431286905220b7d34b2ddc7fd13804149c2a5a89",
+  "passed": 37,
+  "total": 37,
+  "results": [
+    {
+      "name": "schema snapshot and current document readiness",
+      "ok": true
+    },
+    {
+      "name": "live video dimensions duration and progressive src",
+      "ok": true
+    },
+    {
+      "name": "visible target identity and canonical",
+      "ok": true
+    },
+    {
+      "name": "known state emitted as JSON string",
+      "ok": true
+    },
+    {
+      "name": "global accessor not executed",
+      "ok": true
+    },
+    {
+      "name": "state own getters and toJSON functions are not invoked",
+      "ok": true
+    },
+    {
+      "name": "cyclic state omitted while earlier good state remains",
+      "ok": true
+    },
+    {
+      "name": "over depth state omitted",
+      "ok": true
+    },
+    {
+      "name": "oversized state string omitted",
+      "ok": true
+    },
+    {
+      "name": "state aggregate budget bounded",
+      "ok": true
+    },
+    {
+      "name": "hidden challenge ignored",
+      "ok": true
+    },
+    {
+      "name": "visible challenge and login recognized",
+      "ok": true
+    },
+    {
+      "name": "generic login label not treated as blocking login",
+      "ok": true
+    },
+    {
+      "name": "paired visible error labels from screenshot are recognized",
+      "ok": true
+    },
+    {
+      "name": "observed official special-case DOM shape is recognized without error class guesses",
+      "ok": true
+    },
+    {
+      "name": "official special-case DOM still requires visible subtitle branch",
+      "ok": true
+    },
+    {
+      "name": "official container class alone is not a playback failure",
+      "ok": true
+    },
+    {
+      "name": "hidden error panel is ignored",
+      "ok": true
+    },
+    {
+      "name": "hidden required label does not combine with visible error",
+      "ok": true
+    },
+    {
+      "name": "transparent ancestor hides otherwise visible error panel",
+      "ok": true
+    },
+    {
+      "name": "offscreen error is ignored",
+      "ok": true
+    },
+    {
+      "name": "generic open app banner is not a playback error",
+      "ok": true
+    },
+    {
+      "name": "author caption mentioning both phrases is not a playback error",
+      "ok": true
+    },
+    {
+      "name": "nested error labels inside author caption remain content",
+      "ok": true
+    },
+    {
+      "name": "quoted phrase pair inside one text node is not an error label pair",
+      "ok": true
+    },
+    {
+      "name": "labels from separate panels are not combined",
+      "ok": true
+    },
+    {
+      "name": "page-wide error text cannot replace compact error panel",
+      "ok": true
+    },
+    {
+      "name": "large subtree is rejected despite matching early labels",
+      "ok": true
+    },
+    {
+      "name": "error flag does not suppress available media observations",
+      "ok": true
+    },
+    {
+      "name": "offscreen video not marked visible",
+      "ok": true
+    },
+    {
+      "name": "conflicting ancestor identity explicit",
+      "ok": true
+    },
+    {
+      "name": "multiple canonicals explicit conflict",
+      "ok": true
+    },
+    {
+      "name": "encrypted source and unknown duration remain explicit",
+      "ok": true
+    },
+    {
+      "name": "video node output bounded but full count retained",
+      "ok": true
+    },
+    {
+      "name": "oversized HTML omitted instead of truncation",
+      "ok": true
+    },
+    {
+      "name": "title bounded",
+      "ok": true
+    },
+    {
+      "name": "unexpected DOM error becomes captureFailed",
+      "ok": true
+    }
+  ]
+}

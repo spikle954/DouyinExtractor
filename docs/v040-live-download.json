@@ -1,0 +1,86 @@
+{
+  "sampleId": "7691299102264413480",
+  "observedAt": "2026-10-03T10:14:51.243Z",
+  "method": "Official public webpage in isolated Chrome -> matching target ROUTER_DATA play_addr -> signed URL passed in-memory via stdin to the same core VideoDownloader; normal TLS and browser sandbox; no imported cookies.",
+  "developerDevice": "Windows desktop JVM + Chrome, not an Android device",
+  "navigation": [
+    {
+      "host": "www.douyin.com",
+      "path": "/video/7691299102264413480",
+      "status": 200
+    },
+    {
+      "host": "m.douyin.com",
+      "path": "/share/video/7691299102264413480",
+      "status": 200
+    }
+  ],
+  "pageTargetMatched": true,
+  "pageDurationMs": 22614,
+  "initialFailure": {
+    "success": false,
+    "problem": "UNSAFE_URL",
+    "routes": [
+      {
+        "host": "aweme.snssdk.com",
+        "scheme": "https",
+        "accepted": true
+      },
+      {
+        "host": "v5-hl-mly-ov.zjcdn.com",
+        "scheme": "https",
+        "accepted": false
+      }
+    ],
+    "http": null,
+    "processExit": 0
+  },
+  "file": {
+    "success": true,
+    "bytes": 4026565,
+    "routes": [
+      {
+        "host": "aweme.snssdk.com",
+        "scheme": "https",
+        "accepted": true
+      },
+      {
+        "host": "v5-hl-mly-ov.zjcdn.com",
+        "scheme": "https",
+        "accepted": true
+      }
+    ],
+    "container": "MP4",
+    "sha256": "c45b2dcc38909571223464e40358d981f872e42256deb811bc86c3b1c508043d",
+    "processExit": 0
+  },
+  "localPlayback": {
+    "method": "Isolated Chrome local file playback, no network media, browser sandbox enabled",
+    "observedAt": "2026-10-03T10:16:50.811Z",
+    "start": {
+      "found": true,
+      "playing": true
+    },
+    "result": {
+      "width": 720,
+      "height": 1280,
+      "duration": 25.63195,
+      "currentTime": 25.63195,
+      "ended": true,
+      "readyState": 4,
+      "error": null,
+      "totalFrames": 768,
+      "droppedFrames": 354,
+      "audioBytes": 410901,
+      "videoBytes": 3586399
+    },
+    "passed": true
+  },
+  "interpretation": "The downloaded file played to its end with audio/video decoder data. Actual file is 720x1280, 25.63195 seconds; webpage advertised 22.614 seconds and user screenshots showed higher dimensions. App now shows actual file metadata after saving. Page annotations are not a guaranteed representation of served bytes.",
+  "limitations": [
+    "No Android device or emulator attached. Android MediaMetadataRetriever, MediaStore/SAF, permissions, notification, background/force-stop and phone player behavior are not device-tested.",
+    "Desktop playback was muted at 4x speed; audio decoder bytes exist but no listening quality assessment was performed. Dropped frames at accelerated headless playback do not establish phone performance.",
+    "A single current public download does not guarantee all videos or future CDN availability.",
+    "Signed media URLs, headers, cookies, raw HTML and private profile paths are not exported."
+  ]
+}

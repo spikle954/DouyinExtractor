@@ -1,0 +1,24 @@
+
+package: name='io.github.douyinextractor.debug' versionCode='19' versionName='0.8.4-debug' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'26'
+targetSdkVersion:'35'
+package: io.github.douyinextractor.debug
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='android.permission.FOREGROUND_SERVICE_DATA_SYNC'
+uses-permission: name='android.permission.POST_NOTIFICATIONS'
+uses-permission: name='android.permission.WAKE_LOCK'
+permission: io.github.douyinextractor.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='io.github.douyinextractor.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+package: name='io.github.douyinextractor' versionCode='19' versionName='0.8.4' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'26'
+targetSdkVersion:'35'
+package: io.github.douyinextractor
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='android.permission.FOREGROUND_SERVICE_DATA_SYNC'
+uses-permission: name='android.permission.POST_NOTIFICATIONS'
+uses-permission: name='android.permission.WAKE_LOCK'
+permission: io.github.douyinextractor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='io.github.douyinextractor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+

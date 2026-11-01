@@ -1,0 +1,164 @@
+{
+  "phase": 3,
+  "version": "0.3.0",
+  "versionCode": 3,
+  "recordedAt": "2026-10-03T15:52:58.9199778+08:00",
+  "command": "assembleDebug assembleRelease test lintDebug",
+  "build": "SUCCESS",
+  "uniqueTests": 146.0,
+  "executions": 159.0,
+  "testResults": [
+    {
+      "target": "core/build/test-results/test",
+      "tests": 133.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.core.diagnostics.DiagnosticReportTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.DouyinExtractorTest",
+          "tests": 14,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.DouyinJsonMapperTest",
+          "tests": 15,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.mapping.MediaUrlPolicyTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.extractor.douyin.parser.DouyinPageParserTest",
+          "tests": 29,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.DouyinUrlsTest",
+          "tests": 12,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.input.ShareTextParserTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.model.MediaFormatSelectorTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinCoverClientTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinHttpClientTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinPageClientTest",
+          "tests": 10,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        {
+          "name": "io.github.douyinextractor.core.network.DouyinUrlResolverTest",
+          "tests": 20,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testDebugUnitTest",
+      "tests": 13.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 13,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    },
+    {
+      "target": "app/build/test-results/testReleaseUnitTest",
+      "tests": 13.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "suites": [
+        {
+          "name": "io.github.douyinextractor.ui.MainViewModelTest",
+          "tests": 13,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      ]
+    }
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 6,
+  "lint": [
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    },
+    {
+      "id": "GradleDependency",
+      "severity": "Warning"
+    }
+  ],
+  "deviceTest": "Not run: adb devices returned no connected device/emulator.",
+  "liveMediaExtraction": "Not verified: both real samples returned script shell / empty router state; no media formats."
+}

@@ -1,0 +1,80 @@
+{
+  "total": 18,
+  "passed": 18,
+  "method": "Synthetic Node DOM and fetch/XHR fixtures; not Android or browser runtime",
+  "scriptSha256": "8a30af2b662a3ce8fc1e2b119c3d9cd9afb97a31782fd5032714c2cba4d27427",
+  "results": [
+    {
+      "name": "snapshot contains only data schema without generating requests",
+      "ok": true
+    },
+    {
+      "name": "known SSR state serializes data without invoking getters or toJSON",
+      "ok": true
+    },
+    {
+      "name": "global state getter remains unread",
+      "ok": true
+    },
+    {
+      "name": "Vue Apollo cache is captured when available",
+      "ok": true
+    },
+    {
+      "name": "reactive target getters and Apollo references provide public media fields",
+      "ok": true
+    },
+    {
+      "name": "installation is idempotent and makes no API requests",
+      "ok": true
+    },
+    {
+      "name": "fetch preserves original promise and response while observing public detail",
+      "ok": true
+    },
+    {
+      "name": "foreign resource response is not captured",
+      "ok": true
+    },
+    {
+      "name": "other photo detail does not supply target snapshot",
+      "ok": true
+    },
+    {
+      "name": "XHR leaves original transport intact and only observes detail response",
+      "ok": true
+    },
+    {
+      "name": "response capture keeps a bounded number of details",
+      "ok": true
+    },
+    {
+      "name": "visible verification is reported and hidden verification ignored",
+      "ok": true
+    },
+    {
+      "name": "login form remains a login failure rather than CAPTCHA permission",
+      "ok": true
+    },
+    {
+      "name": "post verification player props supply only exact target public media fields",
+      "ok": true
+    },
+    {
+      "name": "recommendation props and unbound video URL do not become target media",
+      "ok": true
+    },
+    {
+      "name": "Vue component cycles are bounded and repeated matching props are deduplicated",
+      "ok": true
+    },
+    {
+      "name": "visible official CAPTCHA iframe waits for manual verification without reading its document",
+      "ok": true
+    },
+    {
+      "name": "oversized HTML and cyclic states are omitted",
+      "ok": true
+    }
+  ]
+}

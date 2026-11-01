@@ -1,0 +1,95 @@
+{
+  "version": "0.5.0",
+  "method": "Production Kotlin Bilibili extractor and downloader on desktop JVM; public requests without login cookies. Downloaded files played locally in isolated Chrome with browser sandbox enabled.",
+  "samples": [
+    {
+      "source": "https://b23.tv/TDFlHLc",
+      "cid": "42325705076",
+      "download": {
+        "success": true,
+        "id": "BV1tZad6XE1n",
+        "page": 1,
+        "pageCount": 1,
+        "formats": 3,
+        "quality": "720P",
+        "durationMs": 26199,
+        "bytes": 6523970,
+        "platform": "Bilibili",
+        "sha256": "09e30896e4b1fdd41b82d1cbcc691ab32cb46812a7e4b8aa9a6e7ab4902a840b",
+        "host": "upos-sz-mirrorcoso1.bilivideo.com",
+        "observedAt": "2026-10-05T15:29:49.660Z"
+      },
+      "playback": {
+        "method": "Isolated Chrome local file playback, no network media, browser sandbox enabled",
+        "observedAt": "2026-10-05T15:30:30.308Z",
+        "start": {
+          "found": true,
+          "playing": true
+        },
+        "result": {
+          "width": 720,
+          "height": 1280,
+          "duration": 26.199938,
+          "currentTime": 26.199938,
+          "ended": true,
+          "readyState": 4,
+          "error": null,
+          "totalFrames": 786,
+          "droppedFrames": 378,
+          "audioBytes": 671260,
+          "videoBytes": 5818203
+        },
+        "passed": true
+      },
+      "playbackRate": 4
+    },
+    {
+      "source": "https://www.bilibili.com/video/BV17x411w7KC?p=2",
+      "cid": "275431",
+      "download": {
+        "success": true,
+        "id": "BV17x411w7KC",
+        "page": 2,
+        "pageCount": 10,
+        "formats": 3,
+        "quality": "720P",
+        "durationMs": 205683,
+        "bytes": 19672558,
+        "platform": "Bilibili",
+        "sha256": "a55db43589785ee86b6b7e4bd98f8a5d56fc5c87df9f8ff51830b288f14cab82",
+        "host": "upos-sz-mirrorcosb.bilivideo.com",
+        "observedAt": "2026-10-05T15:37:03.220Z"
+      },
+      "playback": {
+        "method": "Isolated Chrome local file playback, no network media, browser sandbox enabled",
+        "observedAt": "2026-10-05T15:38:01.587Z",
+        "start": {
+          "found": true,
+          "playing": true
+        },
+        "result": {
+          "width": 640,
+          "height": 360,
+          "duration": 205.682132,
+          "currentTime": 205.682132,
+          "ended": true,
+          "readyState": 4,
+          "error": null,
+          "totalFrames": 6155,
+          "droppedFrames": 5353,
+          "audioBytes": 3098017,
+          "videoBytes": 16366311
+        },
+        "passed": true
+      },
+      "playbackRate": 16,
+      "note": "The platform quality label is 720P; the actual older source file decodes at 640 x 360. The app does not infer pixel dimensions from the quality label."
+    }
+  ],
+  "limitations": [
+    "No Android device or emulator was connected; Android interaction and device-specific playback remain for phone testing.",
+    "Accelerated local playback reached the end with audio/video decode and no media error. Dropped-frame counts at accelerated rates are not normal-speed performance evidence.",
+    "Results describe these public samples at the recorded time, not all Bilibili videos or all available quality levels.",
+    "No signed media URLs, credentials, raw API bodies, downloaded videos, or screenshots are included in the source delivery."
+  ]
+}

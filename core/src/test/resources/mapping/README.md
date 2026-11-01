@@ -1,0 +1,1 @@
+All data in this directory is hand-authored synthetic fixture data, not a saved working Douyin response. Hostnames are only used to exercise the allowlist and are never requested. The fixture does not establish live platform compatibility.

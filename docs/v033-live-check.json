@@ -1,0 +1,104 @@
+{
+  "sampleId": "7690790070625783066",
+  "userPhoneEvidence": {
+    "version": "0.3.2",
+    "source": "User-provided screenshot and diagnostic text; not an agent-run device test",
+    "shortLink": "https://v.douyin.com/5A6uFUxGMFA/",
+    "shortStatus": 302,
+    "recognizedId": "7690790070625783066",
+    "ordinaryHttp": "Three public pages responded 200 without recognized media; no browser session in this failure report.",
+    "successfulBrowser": {
+      "entry": "User selected former desktop-page button",
+      "finalPage": "https://m.douyin.com/share/video/7690790070625783066",
+      "formatCount": 1,
+      "width": 2880,
+      "height": 2160,
+      "source": "RouterDataParser:play_addr",
+      "fileSaved": false
+    }
+  },
+  "developerShortProbe": {
+    "observedAt": "2026-10-03T09:03:18.271Z",
+    "method": "Anonymous HTTPS fetch with current Android app headers, manual platform redirects. No full query/header/body logging.",
+    "steps": [
+      {
+        "url": "https://v.douyin.com/bh3WPFYIwso/",
+        "status": 302,
+        "contentType": "text/html; charset=utf-8",
+        "location": "https://www.iesdouyin.com/share/video/7690790070625783066/"
+      },
+      {
+        "url": "https://www.iesdouyin.com/share/video/7690790070625783066/",
+        "status": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "location": null,
+        "markers": [
+          "_ROUTER_DATA"
+        ]
+      }
+    ]
+  },
+  "developerBrowserProbe": {
+    "observedAt": "2026-10-03T09:11:13.787Z",
+    "browser": "Chrome/154.0.8037.97",
+    "method": "Isolated no-login desktop Chrome, mobile UA, normal browser sandbox/TLS; existing App resource allowlist; video-page entry.",
+    "navigation": [
+      {
+        "host": "www.douyin.com",
+        "path": "/video/7690790070625783066",
+        "status": 200
+      },
+      {
+        "host": "www.douyin.com",
+        "path": "/video/7690790070625783066",
+        "status": null
+      },
+      {
+        "host": "m.douyin.com",
+        "path": "/share/video/7690790070625783066",
+        "status": 200
+      }
+    ],
+    "requests": 57,
+    "localBlocks": 9,
+    "allowedNetworkFailures": 0,
+    "snapshot": {
+      "readyState": "complete",
+      "finalPage": {
+        "host": "m.douyin.com",
+        "path": "/share/video/7690790070625783066"
+      },
+      "hasVideoInfoRes": true,
+      "videoInfoStatus": 0,
+      "itemCount": 1,
+      "videoCount": 1
+    },
+    "targetMedia": {
+      "matched": true,
+      "hasVideo": true,
+      "playAddressCount": 1,
+      "width": null,
+      "height": null,
+      "durationMs": 282704
+    },
+    "capture": {
+      "blocker": {
+        "verification": false,
+        "login": false,
+        "webPlaybackUnavailable": false
+      },
+      "readyState": "complete",
+      "videoCount": 1,
+      "captureFailed": false,
+      "scriptSha256": "f4a150c24daa43a216060e12431286905220b7d34b2ddc7fd13804149c2a5a89"
+    },
+    "scriptExceptions": 1,
+    "consoleErrors": 1
+  },
+  "limits": [
+    "No successful full file download or playback validation.",
+    "Desktop Chrome is not Android WebView QA.",
+    "One successful user sample does not establish broad or permanent platform support.",
+    "Only sanitized metadata exported; no cookies, request headers, raw HTML or signed media URLs."
+  ]
+}

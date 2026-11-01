@@ -1,0 +1,249 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:mergeReleaseArtProfile UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :app:compressReleaseAssets UP-TO-DATE
+> Task :app:extractReleaseVersionControlInfo UP-TO-DATE
+> Task :app:optimizeReleaseResources UP-TO-DATE
+> Task :app:collectReleaseDependencies UP-TO-DATE
+> Task :app:sdkReleaseDependencyData UP-TO-DATE
+> Task :app:writeReleaseAppMetadata UP-TO-DATE
+> Task :app:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :core:processTestResources UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :core:compileKotlin
+> Task :core:compileJava NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:compileReleaseKotlin
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeDebugJavaResource
+> Task :app:expandReleaseArtProfileWildcards
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processReleaseJavaRes UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:mergeReleaseJavaResource
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:minifyReleaseWithR8
+> Task :app:testDebugUnitTest
+> Task :app:bundleReleaseClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleReleaseClassesToCompileJar UP-TO-DATE
+> Task :app:compileReleaseArtProfile
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleRelease
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugLintReportModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :core:compileTestKotlin
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :app:lintAnalyzeDebug
+
+> Task :core:test
+
+DouyinUrlsTest > same repeated identifier is accepted but invalid or conflicting values fail PASSED
+
+DouyinUrlsTest > raw authority and invisible whitespace tricks cannot pass request validation PASSED
+
+DouyinUrlsTest > normalization is idempotent and leaves routing fields usable PASSED
+
+DouyinUrlsTest > supported video URL shapes converge to a canonical identifier PASSED
+
+DouyinUrlsTest > sanitized diagnostics retain only public host and path PASSED
+
+DouyinUrlsTest > observed share tracking fields are removed without removing routing parameters PASSED
+
+DouyinUrlsTest > canonical rejects path injection PASSED
+
+DouyinUrlsTest > short link query identifiers cannot bypass resolving the actual short code PASSED
+
+DouyinUrlsTest > normalization upgrades input HTTP but request validation never does PASSED
+
+DouyinUrlsTest > identifiers preserve leading zeros without Long conversion PASSED
+
+DouyinUrlsTest > short links require exactly one opaque token on a recognized short host PASSED
+
+DouyinUrlsTest > generic redirect paths stay safe and available without being classified as video PASSED
+
+DiagnosticReportTest > export retains debugging evidence without cookies tracking or URL credentials PASSED
+
+DiagnosticReportTest > oversized trace cannot grow without limit PASSED
+
+DiagnosticReportTest > protocol free root query and fragment are also redacted PASSED
+
+DiagnosticReportTest > trace snapshots are not mutable internal storage PASSED
+
+ShareTextParserTest > different links are ambiguous while duplicate tracking variants are harmless PASSED
+
+ShareTextParserTest > tracking is removed while opaque routing data is preserved PASSED
+
+ShareTextParserTest > oversized input and URL fail instead of being truncated PASSED
+
+ShareTextParserTest > unsupported pages and contradictory identifiers never become a video PASSED
+
+ShareTextParserTest > hostile URLs cannot hide an allowed URL in their path query or credentials PASSED
+
+ShareTextParserTest > Chinese wording punctuation and surrounding mixed whitespace are removed PASSED
+
+ShareTextParserTest > empty input unrelated text and bare identifiers fail without exceptions PASSED
+
+ShareTextParserTest > screenshot transcriptions preserve each token without claiming availability PASSED
+
+ShareTextParserTest > direct bare and HTTP links normalize before use PASSED
+
+ShareTextParserTest > user supplied Linda share text extracts the opaque short token PASSED
+
+DouyinHttpClientTest > public client refuses localhost external hosts and cleartext URLs PASSED
+
+DouyinHttpClientTest > cookie storage is bounded PASSED
+
+DouyinHttpClientTest > cancellation cancels the actual OkHttp call PASSED
+
+DouyinHttpClientTest > response cookies remain within one client session PASSED
+
+DouyinHttpClientTest > cookie jar respects domain path secure expiration and replacement PASSED
+
+DouyinHttpClientTest > network failure is surfaced with no hidden retry PASSED
+
+DouyinHttpClientTest > real HTTP transport uses expected headers and leaves redirects to resolver PASSED
+
+DouyinUrlResolverTest > query only redirect retains the final path segment PASSED
+
+DouyinUrlResolverTest > intermediate server query state is preserved while diagnostics omit it PASSED
+
+DouyinUrlResolverTest > network failure is typed and exception secrets do not enter diagnostics PASSED
+
+DouyinUrlResolverTest > missing empty and malformed locations fail clearly PASSED
+
+DouyinUrlResolverTest > other HTTP failures retain only their status PASSED
+
+DouyinUrlResolverTest > parent relative redirect resolves path before checking the next hop PASSED
+
+DouyinUrlResolverTest > successful HTTP without an ID does not claim a deleted video PASSED
+
+DouyinUrlResolverTest > cancelling resolution cancels suspended transport PASSED
+
+DouyinUrlResolverTest > explicit missing and login responses are typed PASSED
+
+DouyinUrlResolverTest > cancellation thrown by transport propagates PASSED
+
+DouyinUrlResolverTest > unsupported landing and profile inputs do not fetch PASSED
+
+DouyinUrlResolverTest > unsafe input is rejected without any requests PASSED
+
+DouyinUrlResolverTest > all supported redirect status codes resolve an ID without fetching its page PASSED
+
+DouyinUrlResolverTest > self redirects and multi hop loops stop before another repeated request PASSED
+
+DouyinUrlResolverTest > redirect trace redacts queries before exposing it PASSED
+
+DouyinUrlResolverTest > direct video resolves without a network request PASSED
+
+DouyinUrlResolverTest > relative locations and protocol relative trusted destinations work PASSED
+
+DouyinUrlResolverTest > unsafe redirect destinations are rejected before fetching even with a video ID PASSED
+
+DouyinUrlResolverTest > input http can be upgraded before the initial request PASSED
+
+DouyinUrlResolverTest > eight redirects are accepted and longer chains are bounded PASSED
+
+> Task :app:lintAnalyzeDebugAndroidTest
+> Task :app:lintAnalyzeDebugUnitTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///<project>/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+
+BUILD SUCCESSFUL in 1m 34s
+106 actionable tasks: 29 executed, 77 up-to-date
+

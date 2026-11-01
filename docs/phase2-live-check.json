@@ -1,0 +1,112 @@
+{
+  "observedAtUtc": "2026-10-03T07:01:32.352Z",
+  "observedAtAsiaShanghai": "2026-10-03 15:01:32 +08:00",
+  "method": "Anonymous Node fetch via environment proxy; Android Chrome User-Agent; manual redirects; HTTPS exact-host gate; 25-second request timeout; 2-MiB response cap; no cookies imported; no page JavaScript executed; no media downloaded.",
+  "samples": [
+    {
+      "label": "linda-user-share",
+      "input": "https://v.douyin.com/9jWJDrnGGCI/",
+      "hops": [
+        {
+          "requestedUrl": "https://v.douyin.com/9jWJDrnGGCI/",
+          "status": 302,
+          "contentType": "text/html; charset=utf-8",
+          "location": "https://www.iesdouyin.com/share/video/7691949525241531674/",
+          "idInRequestedUrl": null,
+          "idInLocation": "7691949525241531674",
+          "responseBytes": 990,
+          "responseSha256": "2fad0a461e2b49f1d3620fbd956370d0b8e876b55773ea91079baa8a5568215f",
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          }
+        },
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7691949525241531674/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "idInRequestedUrl": "7691949525241531674",
+          "idInLocation": null,
+          "responseBytes": 35851,
+          "responseSha256": "dc82a83e1a2454cf4cbdcc3211aadaf6b973aa11853f5114f79123bcfb3822ba",
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          }
+        }
+      ],
+      "finalUrl": "https://www.iesdouyin.com/share/video/7691949525241531674/",
+      "extractedVideoId": "7691949525241531674",
+      "completed": true
+    },
+    {
+      "label": "second-screenshot-share",
+      "input": "https://v.douyin.com/5AXSheWSgNw/",
+      "hops": [
+        {
+          "requestedUrl": "https://v.douyin.com/5AXSheWSgNw/",
+          "status": 302,
+          "contentType": "text/html; charset=utf-8",
+          "location": "https://www.iesdouyin.com/share/video/7691307792850981055/",
+          "idInRequestedUrl": null,
+          "idInLocation": "7691307792850981055",
+          "responseBytes": 1203,
+          "responseSha256": "24d327aed4e1263b524d0268f137442ac6945cd5c690ab7bfa9ddb55261990ad",
+          "markers": {
+            "_ROUTER_DATA": false,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          }
+        },
+        {
+          "requestedUrl": "https://www.iesdouyin.com/share/video/7691307792850981055/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "location": null,
+          "idInRequestedUrl": "7691307792850981055",
+          "idInLocation": null,
+          "responseBytes": 36753,
+          "responseSha256": "17c8844a4ac7eab7d140912067a6ca86645de8f48cda353bbd80458966c72676",
+          "markers": {
+            "_ROUTER_DATA": true,
+            "RENDER_DATA": false,
+            "SIGI_STATE": false,
+            "application/ld+json": false,
+            "videoInfoRes": false,
+            "aweme_detail": false,
+            "play_addr": false,
+            "bit_rate": false
+          }
+        }
+      ],
+      "finalUrl": "https://www.iesdouyin.com/share/video/7691307792850981055/",
+      "extractedVideoId": "7691307792850981055",
+      "completed": true
+    }
+  ],
+  "caveats": [
+    "HTTP 200 and URL-derived video IDs establish only redirect/identity evidence, not title, playable media, or download support.",
+    "Marker checks are literal presence checks, not successful media extraction.",
+    "Locations and final URLs omit tracking query parameters and fragments; transient network requests followed the original allowed Location.",
+    "The first screenshot short code has ambiguous l/I characters and was not guessed or probed.",
+    "These observations reflect this development machine and network only; they do not replace Android device checks."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "loaderData": {
+    "video_(id)/page": {
+      "videoInfoRes": {
+        "item_list": [{
+          "aweme_id": "1234567890123456789",
+          "desc": "Synthetic fixture: multiple progressive video qualities",
+          "author": { "nickname": "Synthetic author" },
+          "video": {
+            "width": 720,
+            "height": 1280,
+            "duration": 42000,
+            "cover": { "url_list": ["https://synthetic.douyinpic.com/fixture-cover.jpg"] },
+            "play_addr": { "url_list": ["https://synthetic.douyinvod.com/720.mp4?token=a%2Fb%3D&x=1"] },
+            "download_addr": { "url_list": ["https://synthetic.douyinvod.com/playwm/?video_id=fixture"] },
+            "bit_rate": [
+              {
+                "bit_rate": 2000000,
+                "codec_type": "h264",
+                "play_addr": {
+                  "width": 720, "height": 1280, "data_size": 10000000,
+                  "url_list": ["https://synthetic.douyinvod.com/720.mp4?token=a%2Fb%3D&x=1"]
+                }
+              },
+              {
+                "bit_rate": 4000000,
+                "codec_type": "h265",
+                "is_watermark": false,
+                "play_addr": {
+                  "width": 1080, "height": 1920,
+                  "url_list": ["https://synthetic.douyinvod.com/1080.mp4"]
+                }
+              }
+            ]
+          }
+        }]
+      },
+      "recommendations": [{
+        "aweme_id": "9999999999999999999",
+        "desc": "Never choose this unrelated video",
+        "video": { "play_addr": { "url_list": ["https://synthetic.douyinvod.com/unrelated.mp4"] } }
+      }]
+    }
+  }
+}

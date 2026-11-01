@@ -1,0 +1,90 @@
+{
+  "version": "0.8.5",
+  "recordedAt": "2026-10-13T07:30:56.671Z",
+  "id": "3x5ie2ecghbese4",
+  "shareInput": "https://v.kuaishou.com/K75yHRuX",
+  "method": "Isolated desktop Chrome at 412 px with equivalent Kuaishou resource policy and production script; no imported cookies or TLS bypass; not Android WebView",
+  "fullSnapshotParser": {
+    "targetMatched": true,
+    "formats": 6,
+    "width": 720,
+    "height": 1280,
+    "error": null,
+    "reason": "已从快手官方网页取得目标视频信息",
+    "attempts": [
+      {
+        "parser": "KuaishouBrowserSnapshot",
+        "formats": 0
+      },
+      {
+        "parser": "KuaishouBrowserHtml",
+        "formats": 0
+      },
+      {
+        "parser": "KuaishouBrowserState:__APOLLO_STATE__",
+        "formats": 6
+      }
+    ],
+    "bytes": null,
+    "sha256": null
+  },
+  "isolatedActualComponentDownload": {
+    "targetMatched": true,
+    "formats": 6,
+    "selectedIndex": 0,
+    "width": 720,
+    "height": 1280,
+    "error": null,
+    "reason": "已从快手官方网页取得目标视频信息",
+    "attempts": [
+      {
+        "parser": "KuaishouBrowserSnapshot",
+        "formats": 0
+      },
+      {
+        "parser": "KuaishouBrowserVideoInfo",
+        "formats": 6
+      }
+    ],
+    "bytes": 4687505,
+    "sha256": "e891227aff70d1359f9fdf567943a4e542985a7511f725e4b50bf754fe798555",
+    "actualTracks": [
+      {
+        "type": "vide",
+        "width": 720,
+        "height": 1280,
+        "durationMs": 26667,
+        "codec": "avc1"
+      },
+      {
+        "type": "soun",
+        "width": 0,
+        "height": 0,
+        "durationMs": 26794,
+        "codec": "mp4a"
+      }
+    ],
+    "method": "Actual captured Vue videoInfo subset, prior HTML/global state sources omitted to isolate new path; production KuaishouBrowserParser + VideoDownloader; selected provided resource index 0. Not synthetic media and not Android runtime."
+  },
+  "networkSummary": {
+    "responses": 61,
+    "blocked": 19
+  },
+  "candidateRouteLimitation": {
+    "selectedRecommendedRoute": [
+      {
+        "hop": 0,
+        "status": 302,
+        "host": "v23-3.kwaicdn.com",
+        "redirectHost": "qv2.wangjuiot.com",
+        "redirectScheme": "https",
+        "sameUrl": false
+      },
+      {
+        "stopped": "Unreviewed redirect"
+      }
+    ],
+    "explanation": "One alternative on v23-3.kwaicdn.com redirected to an unreviewed host in this development network and was rejected. Kept original HTTPS/CDN checks; used provided first resource on djvod.ndcimgs.com for complete download. No default recommendation or downloader change."
+  },
+  "handset": "User confirmed 0.8.4 share-page verification obtains media while video page plays after verification without extraction. 0.8.5 verification interaction, dynamic player props, zoom and saving remain pending on handset."
+}
